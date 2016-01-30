@@ -16,5 +16,4 @@ public class Item {
 			actionList.Add(_action);
 		}
 	}
-	
 }
