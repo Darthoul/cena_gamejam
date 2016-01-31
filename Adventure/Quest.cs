@@ -25,7 +25,7 @@ public abstract class QuestArchive {
 		if (quest != null) {
 			inactive.Remove (quest);
 			active.Add (quest);
-			CallOnActivate(quest);
+			//CallOnActivate(quest);
 		} else {
 			Debug.LogError ("There's no quest with id: " + _id);
 		}
@@ -49,6 +49,7 @@ public abstract class QuestArchive {
 				i--;
 				active.Remove(quest);
 				completed.Add(quest);
+				CallOnActivate(quest);
 				Debug.LogWarning ("Quest " + quest.id + " completed!");
 				foreach (string toActId in quest.toActivateIds) {
 					Activate(toActId);
