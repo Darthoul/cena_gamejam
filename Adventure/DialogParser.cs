@@ -13,6 +13,9 @@ public class DialogParser : Parser {
 		}
 		if (name == "Dialogs/Dialog/Content") {
 			if (pairs.Count <= 4) {
+				Debug.LogWarning(pairs.Count);
+				Debug.LogWarning(pairs[2].value);
+
 				dialog.AddContent (pairs [0].value, float.Parse (pairs [1].value), pairs[2].value, pairs[3].value);
 			} else {
 				dialog.AddContent (pairs [0].value, float.Parse (pairs [1].value), pairs[2].value, pairs[3].value, pairs[4].value);

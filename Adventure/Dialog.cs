@@ -19,6 +19,8 @@ public class Dialog {
 	public void AddContent (string _text, float _duration, string _actorID, string _animationType, string _nextID = null) {
 		this.text = _text;
 		this.duration = _duration;
+		this.actorID = _actorID;
+		this.animationType = _animationType;
 		this.nextID = _nextID;
 	}
 

@@ -4,10 +4,9 @@ Dialogs {
 		Content {
 			text = "El placer es nuestro señor Gustav. Dígame ¿a qué se dedica?"
 			duration = "1.5"
-			actorID = "mama"
+			actorID = "madre"
 			animationType = "say"
 		}
-		
 	}
 	Dialog {
 		id = "r2"
@@ -25,7 +24,7 @@ Dialogs {
 		Content {
 			text = "No uses el nombre de Dios en vano."
 			duration = "1.5"
-			actorID = "mama"
+			actorID = "madre"
 			animationType = "say"
 			nextID = "r4"
 		}
@@ -245,6 +244,7 @@ Dialogs {
 			actorID = "madre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r28"
 		content {
@@ -253,6 +253,7 @@ Dialogs {
 			actorID = "taletale"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r29"
 		content {
@@ -261,6 +262,7 @@ Dialogs {
 			actorID = "padre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r30"
 		content {
@@ -269,6 +271,7 @@ Dialogs {
 			actorID = "padre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r31"
 		content {
@@ -277,6 +280,7 @@ Dialogs {
 			actorID = "taletale"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r32"
 		content {
@@ -285,6 +289,7 @@ Dialogs {
 			actorID = "madre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r33"
 		content {
@@ -293,6 +298,7 @@ Dialogs {
 			actorID = "taletale"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r34"
 		content {
@@ -301,6 +307,7 @@ Dialogs {
 			actorID = "hija"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r35"
 		content {
@@ -309,6 +316,7 @@ Dialogs {
 			actorID = "hija"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r36"
 		content {
@@ -317,6 +325,7 @@ Dialogs {
 			actorID = "madre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r37"
 		content {
@@ -325,6 +334,7 @@ Dialogs {
 			actorID = "hija"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r38"
 		content {
@@ -333,6 +343,7 @@ Dialogs {
 			actorID = "taletale"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r39"
 		content {
@@ -341,6 +352,7 @@ Dialogs {
 			actorID = "padre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r40"
 		content {
@@ -349,6 +361,7 @@ Dialogs {
 			actorID = "madre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r41"
 		content {
@@ -357,6 +370,7 @@ Dialogs {
 			actorID = "taletale"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r42"
 		content {
@@ -365,6 +379,7 @@ Dialogs {
 			actorID = "padre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r43"
 		content {
@@ -373,6 +388,7 @@ Dialogs {
 			actorID = "hija"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r44"
 		content {
@@ -381,6 +397,7 @@ Dialogs {
 			actorID = "madre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r45"
 		content {
@@ -389,6 +406,7 @@ Dialogs {
 			actorID = "hija"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r46"
 		content {
@@ -397,6 +415,7 @@ Dialogs {
 			actorID = "hija"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r47"
 		content {
@@ -405,6 +424,7 @@ Dialogs {
 			actorID = "hija"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r48"
 		content {
@@ -413,6 +433,7 @@ Dialogs {
 			actorID = "taletale"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r49"
 		content {
@@ -421,6 +442,7 @@ Dialogs {
 			actorID = "padre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r50"
 		content {
@@ -429,6 +451,7 @@ Dialogs {
 			actorID = "madre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r51"
 		content {
@@ -437,6 +460,7 @@ Dialogs {
 			actorID = "padre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r52"
 		content {
@@ -445,6 +469,7 @@ Dialogs {
 			actorID = "madre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r53"
 		content {
@@ -453,6 +478,7 @@ Dialogs {
 			actorID = "padre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r54"
 		content {
@@ -461,6 +487,7 @@ Dialogs {
 			actorID = "madre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r55"
 		content {
@@ -469,6 +496,7 @@ Dialogs {
 			actorID = "padre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r56"
 		content {
@@ -477,6 +505,7 @@ Dialogs {
 			actorID = "padre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r57"
 		content {
@@ -485,6 +514,7 @@ Dialogs {
 			actorID = "padre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r58"
 		content {
@@ -493,6 +523,7 @@ Dialogs {
 			actorID = "taletale"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r59"
 		content {
@@ -501,6 +532,7 @@ Dialogs {
 			actorID = "hija"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r60"
 		content {
@@ -509,6 +541,7 @@ Dialogs {
 			actorID = "hija"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r61"
 		content {
@@ -517,6 +550,7 @@ Dialogs {
 			actorID = "madre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r62"
 		content {
@@ -525,6 +559,7 @@ Dialogs {
 			actorID = "padre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r63"
 		content {
@@ -533,6 +568,7 @@ Dialogs {
 			actorID = "madre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r64"
 		content {
@@ -541,6 +577,7 @@ Dialogs {
 			actorID = "madre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r65"
 		content {
@@ -549,6 +586,7 @@ Dialogs {
 			actorID = "taletale"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r66"
 		content {
@@ -557,6 +595,7 @@ Dialogs {
 			actorID = "madre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r67"
 		content {
@@ -565,6 +604,7 @@ Dialogs {
 			actorID = "madre"
 			animationType = "mandíbula. Tengo un maxilar evolucionado."
 		}
+	}
 	Dialog {
 		id = "r68"
 		content {
@@ -573,6 +613,7 @@ Dialogs {
 			actorID = "hija"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r69"
 		content {
@@ -581,6 +622,7 @@ Dialogs {
 			actorID = "madre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r70"
 		content {
@@ -589,6 +631,7 @@ Dialogs {
 			actorID = "taletale"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r71"
 		content {
@@ -597,6 +640,7 @@ Dialogs {
 			actorID = "madre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r72"
 		content {
@@ -605,6 +649,7 @@ Dialogs {
 			actorID = "madre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r73"
 		content {
@@ -613,6 +658,7 @@ Dialogs {
 			actorID = "madre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r74"
 		content {
@@ -621,6 +667,7 @@ Dialogs {
 			actorID = "taletale"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r75"
 		content {
@@ -629,6 +676,7 @@ Dialogs {
 			actorID = "madre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r76"
 		content {
@@ -637,6 +685,7 @@ Dialogs {
 			actorID = "taletale"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r77"
 		content {
@@ -645,6 +694,7 @@ Dialogs {
 			actorID = "padre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r78"
 		content {
@@ -653,6 +703,7 @@ Dialogs {
 			actorID = "padre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r79"
 		content {
@@ -661,6 +712,7 @@ Dialogs {
 			actorID = "taletale"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r80"
 		content {
@@ -669,6 +721,7 @@ Dialogs {
 			actorID = "padre"
 			animationType = ""
 		}
+	}
 	Dialog {
 		id = "r81"
 		Content {

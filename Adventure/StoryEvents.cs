@@ -12,6 +12,7 @@ public class StoryEvents : MonoBehaviour {
 	public static Speech currentSpeech;
 	public static Dialog currentDialog;
 	public bool speaking = false;
+	private float timer = 0;
 	// Use this for initialization
 	void Awake () {
 		instance = this;
@@ -29,20 +30,33 @@ public class StoryEvents : MonoBehaviour {
 	void Start () {
 	
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 	
 		if (speaking) {
-
+			timer += Time.deltaTime;
+			if (timer >= currentDialog.duration) {
+				SetText ("");
+				if (currentDialog.nextID != null) {
+					timer = 0;
+					MakeActorSay(currentDialog.nextID);
+				} else {
+					speaking = false;
+					SpeechPrompt ();
+				}
+			}
 		}
 	}
 
 	static public void MakeActorSay (string _responseID) {
 		currentDialog = DialogArchive.Search (_responseID);
-		Debug.LogWarning (DialogArchive.dialogs[0].actorID);
-		GameObject.Find (currentDialog.actorID).transform.GetChild (0).GetComponent<TextMesh> ().text = currentDialog.text;
+		instance.SetText (currentDialog.text);
 		instance.speaking = true;
+	}
+
+	public void SetText (string _text) {
+		GameObject.Find (currentDialog.actorID).transform.GetChild (0).GetComponent<TextMesh> ().text = _text;
 	}
 
 	static public void SpeechPrompt () {
