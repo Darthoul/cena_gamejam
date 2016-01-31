@@ -4,14 +4,18 @@ using System.Collections;
 public class AdventureLoader : MonoBehaviour {
 
 	public TextAsset diagDefs;
+	public TextAsset speechDefs;
 	public TextAsset questDefs;
 	
 	public bool HasDefs () {
-		return (HasQuests() && HasDialogs());
+		return (HasQuests() && HasSpeaches() && HasDialogs());
 	}
 
 	public bool HasDialogs () {
 		return (DialogArchive.Count > 0);
+	}
+	public bool HasSpeaches () {
+		return (SpeechArchive.Count > 0);
 	}
 	public bool HasQuests () {
 		return (QuestArchive.Count > 0);
@@ -27,6 +31,13 @@ public class AdventureLoader : MonoBehaviour {
 			Debug.LogError("File not reached: Non existent");
 		}
 
+		if (speechDefs != null) {
+			SpeechParser sp = new SpeechParser ();
+			sp.Start (speechDefs.text);
+			Debug.Log("Speech Definitions successfully Loaded");
+		} else {
+			Debug.LogError("File not reached: Non existent");
+		}
 
 		if (questDefs != null) {
 			QuestParser qp = new QuestParser ();

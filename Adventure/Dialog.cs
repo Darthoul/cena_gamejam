@@ -36,4 +36,13 @@ public class DialogArchive {
 	public static void Add (Dialog dialog) {
 		dialogs.Add (dialog);
 	}
+
+	public static Dialog Search (string _id) {
+		for (int i = 0; i < dialogs.Count; i++) {
+			if (dialogs[i].id == _id) {
+				return dialogs[i];
+			}
+		}
+		return null;
+	}
 }

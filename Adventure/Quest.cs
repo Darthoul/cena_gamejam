@@ -20,6 +20,8 @@ public abstract class QuestArchive {
 			quest = inactive [i];
 			if (quest.id == _id) {
 				break;
+			} else {
+				quest = null;
 			}
 		}
 		if (quest != null) {
@@ -32,6 +34,11 @@ public abstract class QuestArchive {
 	}
 
 	public static void CallOnActivate (Quest quest) {
+		if (SpeechArchive.SearchActive (quest.tasks [0].target) != null) {
+			SpeechArchive.ClearActive ();
+			SpeechArchive.Search (quest.tasks [0].target).SendListToActive();
+		}
+
 		foreach (Quest.Call call in quest.calls) {
 			if (call.activateParams != null && call.activateParams.Count != 0) {
 				StoryEvents.instance.SendMessage (call.onActivate, call.activateParams);
@@ -66,6 +73,7 @@ public abstract class QuestArchive {
 				i--;
 				active.Remove(quest);
 				completed.Add(quest);
+				CallOnActivate(quest);
 				Debug.LogWarning ("Quest " + quest.id + " completed!");
 				foreach (string toActId in quest.toActivateIds) {
 					Activate(toActId);

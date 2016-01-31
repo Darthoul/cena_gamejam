@@ -24,7 +24,7 @@ public class Container : MonoBehaviour {
 
 	public void SetOffContainer(){
 		isActive = false;
-		if (isOnPosition = true) {
+		if (isOnPosition) {
 			hideActions(item);	
 		}
 
