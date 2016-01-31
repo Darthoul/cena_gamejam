@@ -1,0 +1,36 @@
+Dialogs {
+	Dialog {
+		id = "r1"
+		content {
+			text = "El placer es nuestro señor Gustav. Dígame ¿a qué se dedica?"
+			duration = "0.5f"
+			actorID = "mama"
+			animationType = "say"
+		}
+		
+	}
+	Dialog {
+		id = "r2"
+		content {
+			text = "En Carcosa cuando no llueve es porque Dios se ha acordado de nosotros… ¿no es lo que solía decir Roland?"
+			duration = "0.5f"
+			actorID = "hija"
+			animationType = "say"
+			nextID = "r3"
+		}
+		
+	}
+	Dialog {
+		id = "r3"
+		content {
+			text = "No uses el nombre de Dios en vano."
+			duration = "0.5f"
+			actorID = "mama"
+			animationType = "say"
+			nextID = "r4"
+		}
+		
+	}
+	
+	
+}
