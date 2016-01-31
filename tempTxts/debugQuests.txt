@@ -1,0 +1,78 @@
+Quests {
+	Quest{
+		id = "q1"
+		Task {
+			action = "say"
+			target = "q1promtText"
+			ammount = "1"
+		}
+	}
+	Quest{
+		id = "q2"
+		Task {
+			action = "say"
+			target = "q2promtText"
+			ammount = "1"
+		}
+	}
+	Quest{
+		id = "q3"
+		Task {
+			action = "say"
+			target = "q1promtText"
+			ammount = "1"
+		}
+	}
+	
+//	Quest {
+//
+//		id = "QT01"
+//		description = "Usar candelabro"
+//		
+//		Task {
+//			action = "usar"
+//			target = "item_test"
+//			ammount = "1"
+//		}
+//
+//		Activates {
+//			quest = "QT02"
+//		}
+//	}
+//	
+//	Quest {
+//		id = "QT02"
+//		description = "Darle sal a la vieja"		
+//		
+//		Task {
+//			action = "dar"
+//			target = "item_test2"
+//			overTarget = "actor2"
+//			ammount = "1"
+//		}
+//		Activates {
+//			quest = "QT03"
+//		}
+//		
+//		Adventure {
+//			Call {
+//				onActivate = "MakeQuestActor"
+//			
+//				ActivateParams {
+//				
+//					actID = "ACT02"
+//					param = "CHO01"
+//				}
+//			}
+//			Call {
+//				onActivate = "MakeActorSay"
+//			
+//				ActivateParams {
+//			
+//					actID = "ACT01"
+//					param = "alt02"
+//				}
+//			}
+//		}
+//	}
+}
