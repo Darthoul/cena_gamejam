@@ -161,11 +161,343 @@ Quests {
 			}
 		}
 	}
+	Quest{
+		id = "q10"
+		Task {
+			action = "say"
+			target = "s41"
+			ammount = "1"
+		}
+		Adventure {
+			Call {
+				onActivate = "ChapterTransition"
+			
+				ActivateParams {
+					nextScene = "chapter3"
+				}
+			}
+		}
+	}
+	Quest{
+		id = "q11"
+		Task {
+			action = "say"
+			target = "s42"
+			ammount = "1"
+		}
+		Adventure {
+			Call {
+				onActivate = "ChapterTransition"
+			
+				ActivateParams {
+					nextScene = "chapter3"
+				}
+			}
+		}
+	}
+	Quest{
+		id = "q12"
+		Task {
+			action = "say"
+			target = "s44"
+			ammount = "1"
+		}
+		Adventure {
+			Call {
+				onActivate = "ChapterTransition"
+			
+				ActivateParams {
+					nextScene = "chapter3"
+				}
+			}
+		}
+	}
+	Quest{
+		id = "q13"
+		Task {
+			action = "say"
+			target = "s45"
+			ammount = "1"
+		}
+		Adventure {
+			Call {
+				onActivate = "ChangeLevel"
+			
+				ActivateParams {
+					nextScene = "gameOver2"
+				}
+			}
+		}
+	}
+	Quest{
+		id = "q14"
+		Task {
+			action = "say"
+			target = "s46"
+			ammount = "1"
+		}
+		Adventure {
+			Call {
+				onActivate = "ChapterTransition"
+			
+				ActivateParams {
+					nextScene = "chapter3"
+				}
+			}
+		}
+	}
+	Quest{
+		id = "q15"
+		Task {
+			action = "say"
+			target = "s49"
+			ammount = "1"
+		}
+		Adventure {
+			Call {
+				onActivate = "ChapterTransition"
+			
+				ActivateParams {
+					nextScene = "chapter3"
+				}
+			}
+		}
+	}
+	Quest{
+		id = "q16"
+		Task {
+			action = "say"
+			target = "s50"
+			ammount = "1"
+		}
+		Adventure {
+			Call {
+				onActivate = "ChangeLevel"
+			
+				ActivateParams {
+					nextScene = "gameOver2"
+				}
+			}
+		}
+	}
+	Quest{
+		id = "q17"
+		Task {
+			action = "say"
+			target = "s52"
+			ammount = "1"
+		}
+		Adventure {
+			Call {
+				onActivate = "ChangeLevel"
+			
+				ActivateParams {
+					nextScene = "gameOver2"
+				}
+			}
+		}
+	}
+	//TERCERA ESCENA BITCH
+	Quest{
+		id = "q18"
+		Task {
+			action = "say"
+			target = "s68"
+			ammount = "1"
+		}
+		Adventure {
+			Call {
+				onActivate = "ActivateItemInteraction"
+				//Este debería activar un CUSTOM quest que es saltyMeatQuest (que tiene 2 tasks = usar salero y comer [en ese orden] sino, gameover)
+				ActivateParams {
+					item = "salero"
+					item = "carne"
+				}
+			}
+		}
+	}
+	Quest{
+		id = "q19"
+		Task {
+			action = "say"
+			target = "s53"
+			ammount = "1"
+		}
+		Adventure {
+			Call {
+				onActivate = "ActivateItemInteraction"
+				//Este debería activar un CUSTOM quest que es saltyMeatQuest (que tiene 2 tasks = usar salero y comer [en ese orden] sino, gameover)
+				ActivateParams {
+					item = "salero"
+					item = "carne"
+				}
+
+			}
+		}
+	}
+	Quest{
+		id = "q20"
+		Task {
+			action = "say"
+			target = "s56"
+			ammount = "1"
+		}
+		Adventure {
+			Call {
+				onActivate = "ChapterTransition"
+			
+				ActivateParams {
+					nextScene = "chapter4"
+				}
+			}
+		}
+	}
+	Quest{
+		id = "q21"
+		Task {
+			action = "say"
+			target = "s57"
+			ammount = "1"
+		}
+		Adventure {
+			Call {
+				onActivate = "ChapterTransition"
+			
+				ActivateParams {
+					nextScene = "chapter4"
+				}
+			}
+		}
+	}
+	Quest{
+		id = "q22"
+		Task {
+			action = "say"
+			target = "s58"
+			ammount = "1"
+		}
+		Adventure {
+			Call {
+				onActivate = "ChapterTransition"
+			
+				ActivateParams {
+					nextScene = "chapter4"
+				}
+			}
+		}
+	}
+	Quest{
+		id = "q23"
+		Task {
+			action = "say"
+			target = "s62"
+			ammount = "1"
+		}
+		Adventure {
+			Call {
+				onActivate = "ChangeLevel"
+			
+				ActivateParams {
+					nextScene = "gameOver3"
+				}
+			}
+		}
+	}
+	Quest{
+		id = "q24"
+		Task {
+			action = "say"
+			target = "s64"
+			ammount = "1"
+		}
+		Adventure {
+			Call {
+				onActivate = "ChangeLevel"
+			
+				ActivateParams {
+					nextScene = "gameOver1"
+				}
+			}
+		}
+	}
+	Quest{
+		id = "q25"
+		Task {
+			action = "say"
+			target = "s65"
+			ammount = "1"
+		}
+		Adventure {
+			Call {
+				onActivate = "ChangeLevel"
+			
+				ActivateParams {
+					nextScene = "gameOver3"
+				}
+			}
+		}
+	}
+	Quest{
+		id = "q26"
+		Task {
+			action = "say"
+			target = "s66"
+			ammount = "1"
+		}
+		Adventure {
+			Call {
+				onActivate = "ChangeLevel"
+			
+				ActivateParams {
+					nextScene = "gameOver4"
+				}
+			}
+		}
+	}
+	Quest{
+		id = "q27"
+		Task {
+			action = "say"
+			target = "s68"
+			ammount = "1"
+		}
+		Adventure {
+			Call {
+				onActivate = "ActivateItemInteraction"
+				//Este debería activar un CUSTOM quest que es saltyMeatQuest (que tiene 2 tasks = usar salero y comer [en ese orden] sino, gameover)
+				ActivateParams {
+					item = "salero"
+					item = "carne"
+				}
+
+			}
+		}
+	}
+	Quest{
+		id = "q28"
+		Task {
+			action = "say"
+			target = "s500a"
+			ammount = "1"
+		}
+		Adventure {
+			Call {
+				onActivate = "ChangeLevel"
+			
+				ActivateParams {
+					nextScene = "gameover5"
+				}
+			}
+		}
+	}
+
+
 }
 
 
-
-
+//2Escena s14 y s15
+//3Escena s68
+//4Escena s69 y s70
 
 // suicide = gameOver1
 // tebotan = gameOver2
