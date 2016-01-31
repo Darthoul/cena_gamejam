@@ -44,9 +44,6 @@ Speaches {
 			text = ""
 			responseID = "r13"
 		}
-		//ToActive {
-		//	special = "win"
-		//}
 	}
 
 	Speach {
@@ -70,9 +67,6 @@ Speaches {
 			text = ""
 			responseID = "r16"
 		}
-		//ToActive {
-		//	special = "win"
-		//}
 	}
 	Speach {
 		id = "s7"
@@ -93,9 +87,6 @@ Speaches {
 			text = ""
 			responseID = "r21"
 		}
-		//ToActive {
-		//	special = "win"
-		//}
 	}
 	Speach {
 		id = "s9"
@@ -116,9 +107,6 @@ Speaches {
 			text = ""
 			responseID = "r24"
 		}
-		//ToActive {
-		//	special = "win"
-		//}
 	}
 	Speach {
 		id = "s11"
@@ -126,9 +114,6 @@ Speaches {
 			showText = "Y usted tiene una muy bonita."
 			text = ""
 			responseID = "r26"
-		}
-		ToActive {
-			special = "win"
 		}
 	}
 	Speach {
@@ -138,9 +123,6 @@ Speaches {
 			text = ""
 			responseID = "r22"
 		}
-		ToActive {
-			special = "gameover"
-		}
 	}
 	Speach {
 		id = "s13"
@@ -148,9 +130,6 @@ Speaches {
 			showText = "Tiene razón, señora."
 			text = ""
 			responseID = "r20"
-		}
-		ToActive {
-			special = "win"
 		}
 	}
 	Speach {
@@ -286,6 +265,7 @@ Speaches {
 		Content {
 			showText = "hablar con hija"
 			text = ""
+			responseID = "r999"
 		}
 		ToActive {
 			speach = "s38b"
@@ -298,6 +278,7 @@ Speaches {
 		Content {
 			showText = "hablar con madre"
 			text = ""
+			responseID = "r999"
 		}
 		ToActive {
 			speach = "s47"
@@ -309,6 +290,7 @@ Speaches {
 		Content {
 			showText = "hablar con padre"
 			text = ""
+			responseID = "r999"
 		}
 		ToActive {
 			speach = "s51"
@@ -689,29 +671,7 @@ Speaches {
 			responseID = "r91"
 		}
 		ToActive {
-			speach = ""
-		}
-	}
-	Speach {
-		id = "s54"
-		Content {
-			showText = "Están muy concentrados comiendo. No me parece apropiado interrumpirlos"
-			text = ""
-			responseID = ""
-		}
-		ToActive {
-			speach = ""
-		}
-	}
-	Speach {
-		id = "s55"
-		Content {
-			showText = "Nunca he visto este tipo de cocción. Ni de carne, dicho sea de paso."
-			text = ""
-			responseID = ""
-		}
-		ToActive {
-			speach = ""
+			special = "saltyMeatQuest"
 		}
 	}
 	Speach {
@@ -722,7 +682,7 @@ Speaches {
 			responseID = "r94"
 		}
 		ToActive {
-			speach = ""
+			special = "win"
 		}
 	}
 	Speach {
@@ -733,7 +693,7 @@ Speaches {
 			responseID = "r94"
 		}
 		ToActive {
-			speach = ""
+			special = "win"
 		}
 	}
 	Speach {
@@ -744,7 +704,7 @@ Speaches {
 			responseID = "r94"
 		}
 		ToActive {
-			speach = ""
+			special = "win"
 		}
 	}
 	Speach {
@@ -755,7 +715,7 @@ Speaches {
 			responseID = "r106"
 		}
 		ToActive {
-			speach = ""
+			special = "eatDessertQuest"
 		}
 	}
 	Speach {
@@ -766,7 +726,7 @@ Speaches {
 			responseID = "r106"
 		}
 		ToActive {
-			speach = ""
+			special = "eatDessertQuest"
 		}
 	}
 	Speach {
@@ -777,18 +737,18 @@ Speaches {
 			responseID = "r106"
 		}
 		ToActive {
-			speach = ""
+			special = "eatDessertQuest"
 		}
 	}
 	Speach {
 		id = "s62"
 		Content {
-			showText = "Tomar su mano "
+			showText = "Tomar su mano"
 			text = ""
 			responseID = "r117"
 		}
 		ToActive {
-			speach = ""
+			special = "gameover"
 		}
 	}
 	Speach {
@@ -799,7 +759,7 @@ Speaches {
 			responseID = "r106"
 		}
 		ToActive {
-			speach = ""
+			special = "eatDessertQuest"
 		}
 	}
 	Speach {
@@ -810,7 +770,7 @@ Speaches {
 			responseID = "r107"
 		}
 		ToActive {
-			speach = ""
+			special = "gameover"
 		}
 	}
 	Speach {
@@ -821,7 +781,7 @@ Speaches {
 			responseID = "r117"
 		}
 		ToActive {
-			speach = ""
+			special = "gameover"
 		}
 	}
 	Speach {
@@ -829,10 +789,10 @@ Speaches {
 		Content {
 			showText = "Sé que mataron a Roland, voy a llamar a la policía inmediatamente."
 			text = ""
-			responseID = ""
+			responseID = "r999"
 		}
 		ToActive {
-			speach = ""
+			special = "gameover"
 		}
 	}
 	Speach {
@@ -840,12 +800,83 @@ Speaches {
 		Content {
 			showText = "No. No tengo ninguna relación contigo. Ni con ellos. Ni con Roland. Ni con nadie.  Me marcho solo. Adiós."
 			text = ""
-			responseID = ""
+			responseID = "r999"
 		}
 		ToActive {
-			speach = ""
+			special = "gameover"
 		}
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
