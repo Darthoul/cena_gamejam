@@ -36,6 +36,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "hija"
 			animationType = ""
+			nextID = "r5"
 		}
 	}
 	Dialog {
@@ -45,6 +46,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r6"
 		}
 	}
 	Dialog {
@@ -54,6 +56,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "hija"
 			animationType = ""
+			nextID = "r7"
 		}
 	}
 	Dialog {
@@ -63,6 +66,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r8"
 		}
 	}
 	Dialog {
@@ -72,6 +76,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
+			nextID = "r9"
 		}
 	}
 	Dialog {
@@ -81,6 +86,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "hija"
 			animationType = ""
+			nextID = "r10"
 		}
 	}
 	Dialog {
@@ -90,6 +96,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
+			nextID = "r11"
 		}
 	}
 	Dialog {
@@ -99,6 +106,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "hija"
 			animationType = ""
+			nextID = "r12"
 		}
 	}
 	Dialog {
@@ -117,6 +125,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r14"
 		}
 	}
 	Dialog {
@@ -144,6 +153,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
+			nextID = "r17"
 		}
 	}
 	Dialog {
@@ -162,6 +172,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r19"
 		}
 	}
 	Dialog {
@@ -216,6 +227,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "taletale"
 			animationType = ""
+			nextID = "r25"
 		}
 	}
 	Dialog {
@@ -243,6 +255,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r28"
 		}
 	}
 	Dialog {
@@ -270,6 +283,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
+			nextID = "r31"
 		}
 	}
 	Dialog {
@@ -288,6 +302,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r33"
 		}
 	}
 	Dialog {
@@ -315,6 +330,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "hija"
 			animationType = ""
+			nextID = "r36"
 		}
 	}
 	Dialog {
@@ -324,6 +340,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r37"
 		}
 	}
 	Dialog {
@@ -333,6 +350,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "hija"
 			animationType = ""
+			nextID = "r38"
 		}
 	}
 	Dialog {
@@ -360,6 +378,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r41"
 		}
 	}
 	Dialog {
@@ -369,6 +388,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "taletale"
 			animationType = ""
+			nextID = "r55"
 		}
 	}
 	Dialog {
@@ -423,6 +443,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "hija"
 			animationType = ""
+			nextID = "r48"
 		}
 	}
 	Dialog {
@@ -441,6 +462,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
+			nextID = "r50"
 		}
 	}
 	Dialog {
@@ -477,6 +499,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
+			nextID = "r54"
 		}
 	}
 	Dialog {
@@ -486,6 +509,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r55"
 		}
 	}
 	Dialog {
@@ -540,6 +564,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "hija"
 			animationType = ""
+			nextID = "r61"
 		}
 	}
 	Dialog {
@@ -549,6 +574,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r77"
 		}
 	}
 	Dialog {
@@ -558,6 +584,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
+			nextID = "r63"
 		}
 	}
 	Dialog {
@@ -576,6 +603,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r65"
 		}
 	}
 	Dialog {
@@ -602,7 +630,7 @@ Dialogs {
 			text = "Me hubiera dicho desde antes. Me encanta la magia. Seguro pensó que me lo comería (ríe) Pero no señor Gustav, la carne de conejo es muy blanda para mi"
 			duration = "1.5"
 			actorID = "madre"
-			animationType = "mandíbula. Tengo un maxilar evolucionado."
+			animationType = ""
 		}
 	}
 	Dialog {
@@ -612,6 +640,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "hija"
 			animationType = ""
+			nextID = "r69"
 		}
 	}
 	Dialog {
@@ -621,6 +650,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r70"
 		}
 	}
 	Dialog {
@@ -657,6 +687,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r74"
 		}
 	}
 	Dialog {
@@ -666,6 +697,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "taletale"
 			animationType = ""
+			nextID = "r77"
 		}
 	}
 	Dialog {
@@ -675,6 +707,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r76"
 		}
 	}
 	Dialog {
@@ -689,7 +722,7 @@ Dialogs {
 	Dialog {
 		id = "r77"
 		content {
-			text = "Querida. Tranquila. Ya estamos listos para el plato principal no hay por qué agitarse. (WIN)"
+			text = "Querida. Tranquila. Ya estamos listos para el plato principal no hay por qué agitarse."
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
@@ -702,6 +735,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
+			nextID = "r79"
 		}
 	}
 	Dialog {
@@ -1054,6 +1088,43 @@ Dialogs {
 			text ="Es una menor de edad. ¿Qué crees que haces?"
 			duration = "1.5"
 			actorID = "padre"
+			animationType = ""
+		}
+	}
+	Dialog {
+		id = "r117a"
+		Content {
+			text ="¿Si...?"
+			duration = "1.5"
+			actorID = "hija"
+			animationType = ""
+		}
+	}
+	Dialog {
+		id = "r117b"
+		Content {
+			text ="¿Cómo?"
+			duration = "1.5"
+			actorID = "madre"
+			animationType = ""
+		}
+	}
+	Dialog {
+		id = "r117c"
+		Content {
+			text ="¿Qué?"
+			duration = "1.5"
+			actorID = "padre"
+			animationType = ""
+		}
+	}
+
+	Dialog {
+		id = "r999"
+		Content {
+			text = "Silencio incómodo..."
+			duration = "1.5"
+			actorID = "taletale"
 			animationType = ""
 		}
 	}

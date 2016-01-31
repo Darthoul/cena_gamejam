@@ -54,6 +54,7 @@ Speaches {
 		Content {
 			showText = "No decir nada…"
 			text = ""
+			responseID = "r999"
 		}
 		ToActive {
 			speach = "s6"
@@ -81,8 +82,8 @@ Speaches {
 			responseID = "r18"
 		}
 		ToActive {
-			speach = "Q12"
-			speach = "Q13"
+			speach = "s12"
+			speach = "s13"
 		}
 	}
 	Speach {
@@ -104,8 +105,8 @@ Speaches {
 			responseID = "r18"
 		}
 		ToActive {
-			speach = "Q12"
-			speach = "Q13"
+			speach = "s12"
+			speach = "s13"
 		}
 	}
 	Speach {
@@ -152,5 +153,699 @@ Speaches {
 			special = "win"
 		}
 	}
+	Speach {
+		id = "s14"
+		Content {
+			showText = "Comer antes de que la comida esté completamente fria"
+			text = ""
+			responseID = "r27"
+		}
+		ToActive {
+			speach = "s20"
+			speach = "s21"
+			speach = "s22"
+		}
+	}
+	Speach {
+		id = "s15"
+		Content {
+			showText = "Esperar más…"
+			text = ""
+			responseID = "r29"
+		}
+		ToActive {
+			speach = "s16"
+			speach = "s17"
+			speach = "s18"
+		}
+	}
+	Speach {
+		id = "s16"
+		Content {
+			showText = "Dios que estás en los cielos (…)"
+			text = ""
+			responseID = "r30"
+		}
+		ToActive {
+			speach = "s20"
+			speach = "s21"
+			speach = "s22"
+		}
+	}
+	Speach {
+		id = "s17"
+		Content {
+			showText = "Nuestro único señor, eres tú mi señor (…)"
+			text = ""
+			responseID = "r32"
+		}
+		ToActive {
+			speach = "s20"
+			speach = "s21"
+			speach = "s22"
+		}
+	}
+	Speach {
+		id = "s18"
+		Content {
+			showText = "Lo cierto es que no soy un creyente."
+			text = ""
+			responseID = "r34"
+		}
+		ToActive {
+			speach = "s19"
+		}
+	}
+	Speach {
+		id = "s19"
+		Content {
+			showText = "De donde vengo son más comunes de lo que crees. Tengo algunos libros que tal vez puedan interesarte."
+			text = ""
+			responseID = "r35"
+		}
+		ToActive {
+			speach = "s20"
+			speach = "s21"
+			speach = "s22"
+		}
+	}
+	Speach {
+		id = "s20"
+		Content {
+			showText = "(Mencionar algo del cuadro) ¿Es esa una pintura de…?"
+			text = ""
+			responseID = "r39"
+		}
+		ToActive {
+			speach = "s23"
+			speach = "s24"
+			speach = "s25"
+		}
+	}
+	Speach {
+		id = "s21"
+		Content {
+			showText = "(Mencionar algo de la entrada) Delicioso. No conocía este platillo."
+			text = ""
+			responseID = "r45"
+		}
+		ToActive {
+			speach = "s28"
+			speach = "s29"
+			speach = "s30"
+		}
+	}
+	Speach {
+		id = "s22"
+		Content {
+			showText = "(Mencionar algo de la vajilla) ¿Donde consiguieron esta vajilla?"
+			text = ""
+			responseID = "r49"
+		}
+		ToActive {
+			speach = "s33"
+			speach = "s34"
+			speach = "s35"
+		}
+	}
+	Speach {
+		id = "s23"
+		Content {
+			showText = "Reconozco el trabajo de un demente cuando lo veo."
+			text = ""
+			responseID = "r40"
+		}
+		ToActive {
+			speach = "s23a"
+			speach = "s23b"
+			speach = "s23c"
+		}
+	}
+	Speach {
+		id="s23a"
+		Content {
+			showText = "hablar con hija"
+			text = ""
+		}
+		ToActive {
+			speach = "s38b"
+			speach = "s39"
+			speach = "s40"
+		}
+	}
+	Speach {
+		id="s23b"
+		Content {
+			showText = "hablar con madre"
+			text = ""
+		}
+		ToActive {
+			speach = "s47"
+			speach = "s48"
+		}
+	}
+	Speach {
+		id="s23c"
+		Content {
+			showText = "hablar con padre"
+			text = ""
+		}
+		ToActive {
+			speach = "s51"
+			speach = "s52"
+
+		}
+	}
+	Speach {
+		id = "s24"
+		Content {
+			showText = "La pintura de Skinner también es popular del otro lado de la frontera. Aunque no precisamente por su calidad..."
+			text = ""
+			responseID = "r40"
+		}
+		ToActive {
+			speach = "s23a"
+			speach = "s23b"
+			speach = "s23c"
+		}
+	}
+	Speach {
+		id = "s25"
+		Content {
+			showText = "(Mentir) Es uno de mis artistas favoritos"
+			text = ""
+			responseID = "r42"
+		}
+		ToActive {
+			speach = "s26"
+			speach = "s27"
+		}
+	}
+	Speach {
+		id = "s26"
+		Content {
+			showText = "No conozco sus ensayos al respecto."
+			text = ""
+			responseID = "r43"
+		}
+		ToActive {
+			speach = "s23a"
+			speach = "s23b"
+			speach = "s23c"
+		}
+	}
+	Speach {
+		id = "s27"
+		Content {
+			showText = "(Mentir) Por supuesto, las sigo al pie de la letra…"
+			text = ""
+			responseID = "r44"
+		}
+		ToActive {
+			speach = "s23a"
+			speach = "s23b"
+			speach = "s23c"
+		}
+	}
+	Speach {
+		id = "s28"
+		Content {
+			showText = "¿Cuál es el plato principal?"
+			text = ""
+			responseID = "r46"
+		}
+		ToActive {
+			speach = "s31"
+			speach = "s32"
+		}
+	}
+	Speach {
+		id = "s29"
+		Content {
+			showText = "Espero con ansias."
+			text = ""
+			responseID = "r46"
+		}
+		ToActive {
+			speach = "s31"
+			speach = "s32"
+		}
+	}
+	Speach {
+		id = "s30"
+		Content {
+			showText = "No suenas muy convencida."
+			text = ""
+			responseID = "r46"
+		}
+		ToActive {
+			speach = "s31"
+			speach = "s32"
+		}
+	}
+	Speach {
+		id = "s31"
+		Content {
+			showText = "Señora, ¿Esta receta es suya entonces?"
+			text = ""
+			responseID = "r47"
+		}
+		ToActive {
+			speach = "s23a"
+			speach = "s23b"
+			speach = "s23c"
+		}
+	}
+	Speach {
+		id = "s32"
+		Content {
+			showText = "(Ignorar...)"
+			text = ""
+			responseID = "r55"
+		}
+		ToActive {
+			speach = "s23a"
+			speach = "s23b"
+			speach = "s23c"
+		}
+	}
+	Speach {
+		id = "s33"
+		Content {
+			showText = "¿Reciben a muchos invitados? "
+			text = ""
+			responseID = "r51"
+		}
+		ToActive {
+			speach = "s36"
+			speach = "s37"
+			speach = "s38a"
+		}
+	}
+	Speach {
+		id = "s34"
+		Content {
+			showText = "Perdón que no haya traído nada. Es un viaje inesperado. "
+			text = ""
+			responseID = "r51"
+		}
+		ToActive {
+			speach = "s36"
+			speach = "s37"
+			speach = "s38a"
+		}
+	}
+	Speach {
+		id = "s35"
+		Content {
+			showText = "Seguramente han de recibir invitados importantes. "
+			text = ""
+			responseID = "r51"
+		}
+		ToActive {
+			speach = "s36"
+			speach = "s37"
+			speach = "s38a"
+		}
+	}
+	Speach {
+		id = "s36"
+		Content {
+			showText = "[Mentir] Me dedico a la importación y exportación de especias. "
+			text = ""
+			responseID = "r53"
+		}
+		ToActive {
+			speach = "s23a"
+			speach = "s23b"
+			speach = "s23c"
+		}
+	}
+	Speach {
+		id = "s37"
+		Content {
+			showText = "[Mentir] Desempleado, ya sabe cómo es la guerra. Primero las fábricas, luego los empleados de rango medio. "
+			text = ""
+			responseID = "r52"
+		}
+		ToActive {
+			special = "gameover"
+		}
+	}
+	Speach {
+		id = "s38a"
+		Content {
+			showText = "[Evadir] ¿Está insinuando que no estoy a la altura de esta mesa? "
+			text = ""
+			responseID = "r53"
+		}
+		ToActive {
+			speach = "s23a"
+			speach = "s23b"
+			speach = "s23c"
+		}
+	}
+	Speach {
+		id = "s38b"
+		Content {
+			showText = "¿Te gusta la poesía?"
+			text = ""
+			responseID = "r59"
+		}
+		ToActive {
+			speach = "s41"
+			speach = "s42"
+			speach = "s43"
+		}
+	}
+	Speach {
+		id = "s39"
+		Content {
+			showText = "(Susurra) Creo que no he llegado en un buen momento "
+			text = ""
+			responseID = "r68"
+		}
+		ToActive {
+			special = "win"
+		}
+	}
+	Speach {
+		id = "s40"
+		Content {
+			showText = "¿Siempre se come tan bien acá? "
+			text = ""
+			responseID = "r71"
+		}
+		ToActive {
+			speach = "s44"
+			speach = "s45"
+			speach = "s46"
+		}
+	}
+	Speach {
+		id = "s41"
+		Content {
+			showText = "Que hermoso. "
+			text = ""
+			responseID = "r60"
+		}
+		ToActive {
+			speach = "win"
+		}
+	}
+	Speach {
+		id = "s42"
+		Content {
+			showText = "Tienes un talento especial. "
+			text = ""
+			responseID = "r60"
+		}
+		ToActive {
+			speach = "win"
+		}
+	}
+	Speach {
+		id = "s43"
+		Content {
+			showText = "(Recita) Las cascadas del sur no siguen tus pasos (...) "
+			text = ""
+			responseID = "r62"
+		}
+		ToActive {
+			speach = "s44"
+			speach = "s45"
+			speach = "s46"
+		}
+	}
+	Speach {
+		id = "s44"
+		Content {
+			showText = "¿Qué esconde usted señora Bierce? "
+			text = ""
+			responseID = "r64"
+		}
+		ToActive {
+			special = "win"
+		}
+	}
+	Speach {
+		id = "s45"
+		Content {
+			showText = "Nada. "
+			text = ""
+			responseID = "r66"
+		}
+		ToActive {
+			special = "gameover"
+		}
+	}
+	Speach {
+		id = "s46"
+		Content {
+			showText = "Un conejo. ¿No le he dicho que soy mago? "
+			text = ""
+			responseID = "r67"
+		}
+		ToActive {
+			speach = "win"
+		}
+	}
+	Speach {
+		id = "s47"
+		Content {
+			showText = "La felicito por la comida, pocos cocineros logran una cena de este nivel en tiempos difíciles. "
+			text = ""
+			responseID = "r71"
+		}
+		ToActive {
+			speach = "s44"
+			speach = "s45"
+			speach = "s46"
+		}
+	}
+	Speach {
+		id = "s48"
+		Content {
+			showText = "Señora Bierce. Me podría disculpar. Necesito ir a los servicios. "
+			text = ""
+			responseID = "r72"
+		}
+		ToActive {
+			speach = "s49"
+			speach = "s50"
+		}
+	}
+	Speach {
+		id = "s49"
+		Content {
+			showText = "No quise ofenderla, de veras lo siento. "
+			text = ""
+			responseID = "r73"
+		}
+		ToActive {
+			special = "win"
+		}
+	}
+	Speach {
+		id = "s50"
+		Content {
+			showText = "¿Pretende que me orine los pantalones, señora Bierce? "
+			text = ""
+			responseID = "r75"
+		}
+		ToActive {
+			special = "gameover"
+		}
+	}
+	Speach {
+		id = "s51"
+		Content {
+			showText = "Lo felicito por la comida, pocas casas logran una cena de este nivel en tiempos difíciles. "
+			text = ""
+			responseID = "r71"
+		}
+		ToActive {
+			speach = "s44"
+			speach = "s45"
+			speach = "s46"
+		}
+	}
+	Speach {
+		id = "s52"
+		Content {
+			showText = "Sr Bierce. Estoy harto de mentir. Ud. me enferma. Sí, fui a la guerra y por personas como usted es que este país no debería existir. "
+			text = ""
+			responseID = "r78"
+		}
+		ToActive {
+			special = "gameover"
+		}
+	}
+	Speach {
+		id = "s53"
+		Content {
+			showText = "(Interumpir) ¿De qué es la carne?"
+			text = ""
+			responseID = "r91"
+		}
+		ToActive {
+			speach = ""
+		}
+	}
+	Speach {
+		id = "s54"
+		Content {
+			showText = "Están muy concentrados comiendo. No me parece apropiado interrumpirlos"
+			text = ""
+			responseID = ""
+		}
+		ToActive {
+			speach = ""
+		}
+	}
+	Speach {
+		id = "s55"
+		Content {
+			showText = "Nunca he visto este tipo de cocción. Ni de carne, dicho sea de paso."
+			text = ""
+			responseID = ""
+		}
+		ToActive {
+			speach = ""
+		}
+	}
+	Speach {
+		id = "s56"
+		Content {
+			showText = "Muy bueno"
+			text = ""
+			responseID = "r94"
+		}
+		ToActive {
+			speach = ""
+		}
+	}
+	Speach {
+		id = "s57"
+		Content {
+			showText = "Delicioso"
+			text = ""
+			responseID = "r94"
+		}
+		ToActive {
+			speach = ""
+		}
+	}
+	Speach {
+		id = "s58"
+		Content {
+			showText = "Sin palabras."
+			text = ""
+			responseID = "r94"
+		}
+		ToActive {
+			speach = ""
+		}
+	}
+	Speach {
+		id = "s59"
+		Content {
+			showText = "No disfruto de los dulces. Preferiría no hacerlo."
+			text = ""
+			responseID = "r106"
+		}
+		ToActive {
+			speach = ""
+		}
+	}
+	Speach {
+		id = "s60"
+		Content {
+			showText = "¿Quién lo ha preparado? "
+			text = ""
+			responseID = "r106"
+		}
+		ToActive {
+			speach = ""
+		}
+	}
+	Speach {
+		id = "s61"
+		Content {
+			showText = "¿De qué es el postre? "
+			text = ""
+			responseID = "r106"
+		}
+		ToActive {
+			speach = ""
+		}
+	}
+	Speach {
+		id = "s62"
+		Content {
+			showText = "Tomar su mano "
+			text = ""
+			responseID = "r117"
+		}
+		ToActive {
+			speach = ""
+		}
+	}
+	Speach {
+		id = "s63"
+		Content {
+			showText = "Ignorar "
+			text = ""
+			responseID = "r106"
+		}
+		ToActive {
+			speach = ""
+		}
+	}
+	Speach {
+		id = "s64"
+		Content {
+			showText = "Delatar "
+			text = ""
+			responseID = "r107"
+		}
+		ToActive {
+			speach = ""
+		}
+	}
+	Speach {
+		id = "s65"
+		Content {
+			showText = "Vámonos y salgamos de esta inmundicia."
+			text = ""
+			responseID = "r117"
+		}
+		ToActive {
+			speach = ""
+		}
+	}
+	Speach {
+		id = "s66"
+		Content {
+			showText = "Sé que mataron a Roland, voy a llamar a la policía inmediatamente."
+			text = ""
+			responseID = ""
+		}
+		ToActive {
+			speach = ""
+		}
+	}
+	Speach {
+		id = "s67"
+		Content {
+			showText = "No. No tengo ninguna relación contigo. Ni con ellos. Ni con Roland. Ni con nadie.  Me marcho solo. Adiós."
+			text = ""
+			responseID = ""
+		}
+		ToActive {
+			speach = ""
+		}
+	}
 
 }
+
