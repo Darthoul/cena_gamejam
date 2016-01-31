@@ -1,14 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class StoryEvents : MonoBehaviour {
 
 	static public StoryEvents instance;
-	public QuestLoader questLoader;
+	public AdventureLoader advLoader;
 	// Use this for initialization
 	void Awake () {
 		instance = this;
-
+		advLoader.LoadAll ();
 	}
 
 	void Start () {
@@ -18,5 +19,9 @@ public class StoryEvents : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
+	}
+
+	static public void MakeActorSay (List<string> questParams) {
+
 	}
 }
