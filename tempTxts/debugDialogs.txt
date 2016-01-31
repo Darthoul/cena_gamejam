@@ -2,7 +2,7 @@ Dialogs {
 	Dialog {
 		id = "r1"
 		Content {
-			text = "El placer es nuestro señor Gustav. Dígame ¿a qué se dedica?"
+			text = "El placer es nuestro señor Gustav.@ Dígame ¿a qué se dedica?"
 			duration = "1.5"
 			actorID = "madre"
 			animationType = "say"
@@ -11,7 +11,7 @@ Dialogs {
 	Dialog {
 		id = "r2"
 		Content {
-			text = "En Carcosa cuando no llueve es porque Dios se ha acordado de nosotros… ¿no es lo que solía decir Roland?"
+			text = "En Carcosa cuando no llueve @es porque Dios se ha acordado de @nosotros… ¿no es lo que solía decir Roland?"
 			duration = "1.5"
 			actorID = "hija"
 			animationType = "say"
@@ -42,7 +42,7 @@ Dialogs {
 	Dialog {
 		id ="r5"
 		Content {
-			text = "Si no te digo qué hacer, para qué soy Madre."
+			text = "Si no te digo qué hacer,@ para qué soy Madre."
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -52,7 +52,7 @@ Dialogs {
 	Dialog {
 		id ="r6"
 		Content {
-			text = "¿¡Cuando Roland estaba acá también eras madre!?"
+			text = "¿¡Cuando Roland estaba acá @también eras madre!?"
 			duration = "1.5"
 			actorID = "hija"
 			animationType = ""
@@ -92,7 +92,7 @@ Dialogs {
 	Dialog {
 		id ="r10"
 		Content {
-			text = "Lo que pasó con tu hermano fue… desafortunado…"
+			text = "Lo que pasó con tu hermano fue… @desafortunado…"
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
@@ -112,7 +112,7 @@ Dialogs {
 	Dialog {
 		id ="r12"
 		Content {
-			text = "Bueno, cambiemos de tema. Perdón señor Gustav...¿A qué se dedica usted? "
+			text = "Bueno, cambiemos de tema. @Perdón señor Gustav...@¿A qué se dedica usted? "
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
@@ -121,7 +121,7 @@ Dialogs {
 	Dialog {
 		id ="r13"
 		Content {
-			text = "Perdone señor Gustav, algunas personas simplemente no saben como comportarse cuando están en una cena… bueno, espero que tenga mucha hambre."
+			text = "Perdone señor Gustav,@ algunas personas simplemente no saben @como comportarse cuando están en una cena… @bueno, espero que tenga mucha hambre."
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -140,7 +140,7 @@ Dialogs {
 	Dialog {
 		id ="r15"
 		Content {
-			text = "Mantener buenas relaciones con la parentela es indispensable."
+			text = "Mantener buenas relaciones con@ la parentela es indispensable."
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
@@ -205,7 +205,7 @@ Dialogs {
 	Dialog {
 		id ="r22"
 		Content {
-			text = "¿Cómo es la guerra señor Gustav? ¿¡Cómo es la guerra!’ Lo lamento, pero voy a pedirle que se retire."
+			text = "¿Cómo es la guerra señor Gustav?@ ¿¡Cómo es la guerra!@ Lo lamento, pero voy a pedirle que se retire."
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -251,7 +251,7 @@ Dialogs {
 	Dialog {
 		id = "r27"
 		content {
-			text = "¿Qué le pasa señor Gustav? ¿Acaso no conoce de modales?"
+			text = "¿Qué le pasa señor Gustav?@ ¿Acaso no conoce de modales?"
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -261,7 +261,7 @@ Dialogs {
 	Dialog {
 		id = "r28"
 		content {
-			text = "La señora de la casa te mira con desaprobación. Todos se ponen a rezar"
+			text = "La señora de la casa te mira con desaprobación. @Todos se ponen a rezar"
 			duration = "1.5"
 			actorID = "taletale"
 			animationType = ""
@@ -279,7 +279,7 @@ Dialogs {
 	Dialog {
 		id = "r30"
 		content {
-			text = "Conoces bien tu credo, eres un hombre respetable. Bueno. ¿Comemos?"
+			text = "Conoces bien tu credo, eres un hombre respetable.@ Bueno. ¿Comemos?"
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
@@ -289,7 +289,7 @@ Dialogs {
 	Dialog {
 		id = "r31"
 		content {
-			text = "El padre te mira con aprobación. Todos empiezan a comer."
+			text = "El padre te mira con aprobación.@ Todos empiezan a comer."
 			duration = "1.5"
 			actorID = "taletale"
 			animationType = ""
@@ -298,7 +298,7 @@ Dialogs {
 	Dialog {
 		id = "r32"
 		content {
-			text = "¡El silencio es preferible a la blasfemia! Si no te importa querido, yo rezaré “Dios que estás en los cielos (…)”"
+			text = "¡El silencio es preferible a la blasfemia!@ Si no te importa querido, yo rezaré @“Dios que estás en los cielos (…)”"
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -317,7 +317,7 @@ Dialogs {
 	Dialog {
 		id = "r34"
 		content {
-			text = "No crees en en nada entonces. ¡Nunca he conocido a nadie con ideas tan revolucionarias!"
+			text = "No crees en en nada entonces.@ ¡Nunca he conocido a nadie con ideas tan revolucionarias!"
 			duration = "1.5"
 			actorID = "hija"
 			animationType = ""
@@ -336,7 +336,7 @@ Dialogs {
 	Dialog {
 		id = "r36"
 		content {
-			text = "No creo que eso sea una buena idea. Los libros suelen invitar a pensar y ya sabemos lo que pasa si piensas demasiado querida…"
+			text = "No creo que eso sea una buena idea.@ Los libros suelen invitar a pensar y ya sabemos @lo que pasa si piensas demasiado querida…"
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -374,7 +374,7 @@ Dialogs {
 	Dialog {
 		id = "r40"
 		content {
-			text = "¡Skinner era una luminaria! ¡Su pensamiento cambió al mundo para siempre! Y ciertamente cambió a esta familia. Gracias a él es que tienes esta comida en tu plato. Así que deberías estar agradecido." 
+			text = "¡Skinner era una luminaria! @¡Su pensamiento cambió al mundo para siempre! @Y ciertamente cambió a esta familia. @Gracias a él es que tienes esta comida en tu plato.@ Así que deberías estar agradecido." 
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -394,7 +394,7 @@ Dialogs {
 	Dialog {
 		id = "r42"
 		content {
-			text = "Excelente, sabía que eras de los nuestros. Estarás familiarizado con sus ideas sobre nutrición entonces."
+			text = "Excelente, sabía que eras de los nuestros.@ Estarás familiarizado con sus ideas sobre nutrición entonces."
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
@@ -412,7 +412,7 @@ Dialogs {
 	Dialog {
 		id = "r44"
 		content {
-			text = "Por favor, compórtate. No todos están a la altura de Skinner. Pero igual estamos agradecidos. Se puede decir que le debo mi figura a él (ríe)."
+			text = "Por favor, compórtate. @No todos están a la altura de Skinner. @Pero igual estamos agradecidos. @Se puede decir que le debo mi figura a él (ríe)."
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -430,7 +430,7 @@ Dialogs {
 	Dialog {
 		id = "r46"
 		content {
-			text = "Madre nunca tuvo un talento especial para la comida, estoy seguro que te sorprenderá. "
+			text = "Madre nunca tuvo un talento especial para la comida, @estoy seguro que te sorprenderá. "
 			duration = "1.5"
 			actorID = "hija"
 			animationType = ""
@@ -458,7 +458,7 @@ Dialogs {
 	Dialog {
 		id = "r49"
 		content {
-			text = "Un poco de aquí un poco de allá. Alguna es muy vieja, alguna muy nueva."
+			text = "Un poco de aquí un poco de allá. @Alguna es muy vieja, alguna muy nueva."
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
@@ -468,7 +468,7 @@ Dialogs {
 	Dialog {
 		id = "r50"
 		content {
-			text = "No vayas a creer que viaja mucho. Los invitados suelen traernos obsequios."
+			text = "No vayas a creer que viaja mucho.@ Los invitados suelen traernos obsequios."
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -477,7 +477,7 @@ Dialogs {
 	Dialog {
 		id = "r51"
 		content {
-			text = "No queremos comparar señor Gustav. No lo tome a mal. Pero nuestra mansión ha recibido desde duques hasta… perdón: ¿A qué se dedicaba usted?"
+			text = "No queremos comparar señor Gustav.@ No lo tome a mal. Pero nuestra mansión ha recibido desde @duques hasta… perdón: ¿A qué se dedicaba usted?"
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
@@ -486,7 +486,7 @@ Dialogs {
 	Dialog {
 		id = "r52"
 		content {
-			text = "¿Cómo es la guerra señor Gustav? ¿¡Cómo es la guerra!? Lo lamento, pero voy a pedirle que se retire."
+			text = "¿Cómo es la guerra señor Gustav? @¿¡Cómo es la guerra!? @Lo lamento, pero voy a pedirle que se retire."
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -495,7 +495,7 @@ Dialogs {
 	Dialog {
 		id = "r53"
 		content {
-			text = "Cada quien se dedica a lo que se dedica. Y no son nuestras maneras, las de ser personas juiciosas. En esta casa han entrado personas de todo los colores,olores… " 
+			text = "Cada quien se dedica a lo que se dedica. @Y no son nuestras maneras, las de ser personas juiciosas.@ En esta casa han entrado personas de todo los colores,olores… " 
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
@@ -570,7 +570,7 @@ Dialogs {
 	Dialog {
 		id = "r61"
 		content {
-			text = "¿De pronto luego el señor Gustav quiere visitar tu habitación?"
+			text = "¿De pronto luego el señor Gustav @quiere visitar tu habitación?"
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -580,7 +580,7 @@ Dialogs {
 	Dialog {
 		id = "r62"
 		content {
-			text = "Tiene un talento escondido para las palabras señor Gustav."
+			text = "Tiene un talento escondido para @las palabras señor Gustav."
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
@@ -618,7 +618,7 @@ Dialogs {
 	Dialog {
 		id = "r66"
 		content {
-			text = "Está nervioso, ¿eh?. Ya sabía. ¿Es un espía no? Viene por nuestros secretos. Si Roland estuviera aquí no actuaría de este modo. Pero no lo voy a tolerar más señor Gustav. Váyase de este lugar."
+			text = "Está nervioso, ¿eh?. Ya sabía. @¿Es un espía no? Viene por nuestros secretos.@ Si Roland estuviera aquí no actuaría de este modo.@ Pero no lo voy a tolerar más señor Gustav. @Váyase de este lugar."
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -627,7 +627,7 @@ Dialogs {
 	Dialog {
 		id = "r67"
 		content {
-			text = "Me hubiera dicho desde antes. Me encanta la magia. Seguro pensó que me lo comería (ríe) Pero no señor Gustav, la carne de conejo es muy blanda para mi"
+			text = "Me hubiera dicho desde antes. @Me encanta la magia. @Seguro pensó que me lo comería (ríe) @Pero no señor Gustav, la carne de @conejo es muy blanda para mi"
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -636,7 +636,7 @@ Dialogs {
 	Dialog {
 		id = "r68"
 		content {
-			text = "(Susurra) No hubiese sido un buen momento nunca. La hija sonríe"
+			text = "(Susurra) No hubiese sido un buen momento nunca.@ (La hija sonríe)"
 			duration = "1.5"
 			actorID = "hija"
 			animationType = ""
@@ -665,7 +665,7 @@ Dialogs {
 	Dialog {
 		id = "r71"
 		content {
-			text = "No tiene por qué ser tan condescendiente, señor Gustav. No creas que estoy pasando por alto todas sus mentiras. ¿Qué más esconde señor Gustav?"
+			text = "No tiene por qué ser tan@ condescendiente, señor Gustav. No creas que@ estoy pasando por alto todas sus mentiras. @¿Qué más esconde señor Gustav?"
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -674,7 +674,7 @@ Dialogs {
 	Dialog {
 		id = "r72"
 		content {
-			text = "Nadie se va de la mesa durante la comida. NADIE. NADIE."
+			text = "Nadie se va de la mesa durante @la comida. NADIE. NADIE."
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -683,7 +683,7 @@ Dialogs {
 	Dialog {
 		id = "r73"
 		content {
-			text = "Pocas cosas me ofenden. Y ya está sentado en mi mesa."
+			text = "Pocas cosas me ofenden. @Y ya está sentado en mi mesa."
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -722,7 +722,7 @@ Dialogs {
 	Dialog {
 		id = "r77"
 		content {
-			text = "Querida. Tranquila. Ya estamos listos para el plato principal no hay por qué agitarse."
+			text = "Querida. Tranquila. Ya estamos listos@ para el plato principal no hay por qué agitarse."
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
@@ -731,7 +731,7 @@ Dialogs {
 	Dialog {
 		id = "r78"
 		content {
-			text = "Ha insultado a mi país. A mi familia y mi honor. Lo reto a duelo."
+			text = "Ha insultado a mi país.@ A mi familia y mi honor.@ Lo reto a duelo."
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
@@ -741,7 +741,7 @@ Dialogs {
 	Dialog {
 		id = "r79"
 		content {
-			text = "El Padre de familia se para y tú también. Empiezas a salir por la puerta de la casa y te disparan por la espalda. "
+			text = "El Padre de familia se para y tú también.@ Empiezas a salir por la puerta de la casa@ y te disparan por la espalda. "
 			duration = "1.5"
 			actorID = "taletale"
 			animationType = ""
@@ -750,7 +750,7 @@ Dialogs {
 	Dialog {
 		id = "r81"
 		Content {
-			text = "Por fin un pedazo de carne sabroso. Bueno cambiar, las vacas han estado desabridas últimamente."
+			text = "Por fin un pedazo de carne sabroso.@ Bueno cambiar, las vacas han estado desabridas últimamente."
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
@@ -760,7 +760,7 @@ Dialogs {
 	Dialog {
 		id = "r82"
 		Content {
-			text = "¿Has probado alguna vez el asado de aquí? La carne puede parecer dura al comienzo, pero todos terminan por acostumbrarse."
+			text = "¿Has probado alguna vez el asado de aquí?@ La carne puede parecer dura al comienzo,@ pero todos terminan por acostumbrarse."
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -780,7 +780,7 @@ Dialogs {
 	Dialog {
 		id = "r84"
 		Content {
-			text = "Comer esto es un gran paso es como… qué palabras estoy buscando querido."
+			text = "Comer esto es un gran paso es como…@ qué palabras estoy buscando querido."
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -820,7 +820,7 @@ Dialogs {
 	Dialog {
 		id = "r88"
 		Content {
-			text = "La cocina, como la pintura, es arte. ¿Como era esa frase de Skinner querida?"
+			text = "La cocina, como la pintura, es arte.@ ¿Como era esa frase de Skinner querida?"
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
@@ -830,7 +830,7 @@ Dialogs {
 	Dialog {
 		id = "r89"
 		Content {
-			text = "El placer de los sentidos solo puede exceder a los instintos si involucramos a nuestros semejantes en el proceso. Nunca mejor usada."
+			text = "El placer de los sentidos solo puede@ exceder a los instintos si involucramos a nuestros@ semejantes en el proceso. Nunca mejor usada."
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -840,7 +840,7 @@ Dialogs {
 	Dialog {
 		id = "r90"
 		Content {
-			text = "No se equivocó el artista, la carne está deliciosa. "
+			text = "No se equivocó el artista,@ la carne está deliciosa. "
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
@@ -858,7 +858,7 @@ Dialogs {
 	Dialog {
 		id = "r92"
 		Content {
-			text = "¡Has algo Francis! ¡Este hombre ha escupido sobre nuestra mesa!"
+			text = "¡Has algo Francis!@ ¡Este hombre ha escupido sobre nuestra mesa!"
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -868,7 +868,7 @@ Dialogs {
 	Dialog {
 		id = "r93"
 		Content {
-			text = "No hay peor muestra de desprecio. Y nosotros que te hemos recibido con los brazos abiertos. (El padre saca una pistola y te dispara) "
+			text = "No hay peor muestra de desprecio.@ Y nosotros que te hemos recibido con los brazos abiertos.@ (El padre saca una pistola y te dispara) "
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
@@ -937,7 +937,7 @@ Dialogs {
 	Dialog {
 		id = "r100"
 		Content {
-			text = "El padre y la madre ríen. La hija te mira preocupada."
+			text = "El padre y la madre ríen.@ La hija te mira preocupada."
 			duration = "1.5"
 			actorID = "taletale"
 			animationType = ""
@@ -946,7 +946,7 @@ Dialogs {
 	Dialog {
 		id = "r101"
 		Content {
-			text = "Me encanta este postre. Pero puede provocar sueño."
+			text = "Me encanta este postre.@ Pero puede provocar sueño."
 			duration = "1.5"
 			actorID = "hija"
 			animationType = ""
@@ -958,7 +958,7 @@ Dialogs {
 	Dialog {
 		id = "r102"
 		Content {
-			text ="No exageres hija. Quizás un poco de sueño. Pero… es lo que sigue después del plato principal. Nuestro postre bander. (La mamá sonríe)."
+			text ="No exageres hija. Quizás un poco de sueño.@ Pero… es lo que sigue después del plato principal.@ Nuestro postre bander. (La mamá sonríe)."
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -967,7 +967,7 @@ Dialogs {
 	Dialog {
 		id = "r103"
 		Content {
-			text ="Prueba el postre, lo hemos preparado especialmente para ti."
+			text ="Prueba el postre, lo hemos@ preparado especialmente para ti."
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
@@ -976,7 +976,7 @@ Dialogs {
 	Dialog {
 		id = "r104"
 		Content {
-			text ="No vas a comer tu plato. Ya comiste el plato principal y ahora sigue el postre. ¿Acaso tu madre nunca te lo dijo?"
+			text ="No vas a comer tu plato.@ Ya comiste el plato principal @y ahora sigue el postre. ¿Acaso tu madre nunca te lo dijo?"
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -1003,7 +1003,7 @@ Dialogs {
 	Dialog {
 		id = "r107"
 		Content {
-			text ="¿Es verdad lo que dice el extranjero? ¿Te quieres ir?"
+			text ="¿Es verdad lo que dice el extranjero? @¿Te quieres ir?"
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
@@ -1013,7 +1013,7 @@ Dialogs {
 	Dialog {
 		id = "r108"
 		Content {
-			text ="Sí padre. Ya lo saben. Quiero desaparecer (La hija tomó un cuchillo y se cortó las venas mientras su padres la miraban)"
+			text ="Sí padre. Ya lo saben.@ Quiero desaparecer @(La hija tomó un cuchillo y se cortó las venas mientras su padres la miraban)"
 			duration = "1.5"
 			actorID = "hija"
 			animationType = ""
@@ -1052,7 +1052,7 @@ Dialogs {
 	Dialog {
 		id = "r112"
 		Content {
-			text ="Como se te ocurre que un hombre de tal alcurnia, va a recoger un plato. (Ríe sarcásticamente) Pero yo me puedo encargar de que coma. (Le acerca la cuchara)"
+			text ="Como se te ocurre que un hombre de tal alcurnia,@ va a recoger un plato.@ (Ríe sarcásticamente) @Pero yo me puedo encargar de que coma.@ (Le acerca la cuchara)"
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
@@ -1071,7 +1071,7 @@ Dialogs {
 	Dialog {
 		id = "r114"
 		Content {
-			text ="Ya estuvo bien. Él no quiere comer. Yo tampoco quiero comer. Ya se dio cuenta de todo. "
+			text ="Ya estuvo bien. Él no quiere comer.@ Yo tampoco quiero comer.@ Ya se dio cuenta de todo. "
 			duration = "1.5"
 			actorID = "hija"
 			animationType = ""
@@ -1146,7 +1146,7 @@ Dialogs {
 	Dialog {
 		id = "r1000"
 		Content {
-			text = "Están muy concentrados comiendo. No me parece apropiado interrumpirlos"
+			text = "Están muy concentrados comiendo.@ No me parece apropiado interrumpirlos"
 			duration = "1.5"
 			actorID = "taletale"
 			animationType = ""
@@ -1155,7 +1155,7 @@ Dialogs {
 	Dialog {
 		id = "r1001"
 		Content {
-			text = "Nunca he visto este tipo de cocción. Ni de carne, dicho sea de paso."
+			text = "Nunca he visto este tipo de cocción.@ Ni de carne, dicho sea de paso."
 			duration = "1.5"
 			actorID = "taletale"
 			animationType = ""
