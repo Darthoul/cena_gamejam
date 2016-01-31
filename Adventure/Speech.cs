@@ -55,6 +55,7 @@ public class SpeechArchive {
 		Debug.LogError ("Speech with id: " + _id + " not found");
 		return null;
 	}
+	
 	public static Speech SearchActive (string _id) {
 		for (int i = 0; i < active.Count; i++) {
 			if (active [i].id == _id) {
@@ -63,6 +64,12 @@ public class SpeechArchive {
 		}
 		Debug.LogError ("Speech with id: " + _id + " not found");
 		return null;
+	}
+
+	public static void SetToActive (string _fromID) {
+		foreach (string nextActive in Search (_fromID).toActive) {
+			active.Add(Search(nextActive));
+		}
 	}
 
 	public static void ClearActive () {

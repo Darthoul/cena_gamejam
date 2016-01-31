@@ -23,6 +23,11 @@ Quests {
 			target = "s6"
 			ammount = "1"
 		}
+		
+		Activates {
+			quest = "q4"
+			quest = "q5"
+		}
 	}
 	Adventure {
 		Call {
@@ -130,10 +135,6 @@ Quests {
 // tedispara = gameOver3
 // carcel = gameOver4
 // winwin = gameOver5
-
-
-
-
 
 
 

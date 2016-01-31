@@ -20,6 +20,8 @@ public class Holder : MonoBehaviour {
 			QuestArchive.Check("say", speech.id, 1);
 			StoryEvents.currentSpeech = speech;
 			StoryEvents.MakeActorSay(speech.responseID);
+			SpeechArchive.ClearActive();
+			SpeechArchive.SetToActive (speech.id);
 			StoryEvents.SpeechClear();
 		}
 	}

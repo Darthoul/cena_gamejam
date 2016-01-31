@@ -34,11 +34,6 @@ public abstract class QuestArchive {
 	}
 
 	public static void CallOnActivate (Quest quest) {
-		if (SpeechArchive.SearchActive (quest.tasks [0].target) != null) {
-			SpeechArchive.ClearActive ();
-			SpeechArchive.Search (quest.tasks [0].target).SendListToActive();
-		}
-
 		foreach (Quest.Call call in quest.calls) {
 			if (call.activateParams != null && call.activateParams.Count != 0) {
 				StoryEvents.instance.SendMessage (call.onActivate, call.activateParams);
