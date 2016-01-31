@@ -748,21 +748,13 @@ Dialogs {
 		}
 	}
 	Dialog {
-		id = "r80"
-		content {
-			text = "Querida. Tranquila. Ya estamos listos para el plato principal no hay por qué agitarse."
-			duration = "1.5"
-			actorID = "padre"
-			animationType = ""
-		}
-	}
-	Dialog {
 		id = "r81"
 		Content {
-			text = "Por fin un pedazo de carne sabroso. Bueno cambiar, las vacas han estado desabridas últimamente. "
+			text = "Por fin un pedazo de carne sabroso. Bueno cambiar, las vacas han estado desabridas últimamente."
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
+			nextID = "r82"
 		}
 	}
 	Dialog {
@@ -772,6 +764,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r83"
 		}
 	}
 	Dialog {
@@ -781,6 +774,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "hija"
 			animationType = ""
+			nextID = "r84"
 		}
 	}
 	Dialog {
@@ -790,6 +784,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r85"
 		}
 	}
 	Dialog {
@@ -799,6 +794,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
+			nextID = "r86"
 		}
 	}
 	Dialog {
@@ -808,6 +804,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "hija"
 			animationType = ""
+			nextID = "r87"
 		}
 	}
 	Dialog {
@@ -817,6 +814,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r88"
 		}
 	}
 	Dialog {
@@ -826,6 +824,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
+			nextID = "r89"
 		}
 	}
 	Dialog {
@@ -835,6 +834,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r90"
 		}
 	}
 	Dialog {
@@ -862,6 +862,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r93"
 		}
 	}
 	Dialog {
@@ -880,6 +881,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
+			nextID = "r95"
 		}
 	}
 	Dialog {
@@ -889,6 +891,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r96"
 		}
 	}
 	Dialog {
@@ -898,6 +901,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
+			nextID = "r97"
 		}
 	}
 	Dialog {
@@ -907,6 +911,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r98"
 		}
 	}
 	Dialog {
@@ -916,6 +921,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
+			nextID = "r99"
 		}
 	}
 	Dialog {
@@ -925,12 +931,13 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r100"
 		}
 	}
 	Dialog {
 		id = "r100"
 		Content {
-			text = "El padre y la madre ríe. La hija te mira preocupada."
+			text = "El padre y la madre ríen. La hija te mira preocupada."
 			duration = "1.5"
 			actorID = "taletale"
 			animationType = ""
@@ -943,6 +950,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "hija"
 			animationType = ""
+			nextID = "r102"
 		}
 	}
 
@@ -959,7 +967,7 @@ Dialogs {
 	Dialog {
 		id = "r103"
 		Content {
-			text ="Prueba el postre, lo hemos preparado especial para ti."
+			text ="Prueba el postre, lo hemos preparado especialmente para ti."
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
@@ -999,6 +1007,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
+			nextID = "r108"
 		}
 	}
 	Dialog {
@@ -1017,6 +1026,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r110"
 		}
 	}
 	Dialog {
@@ -1026,6 +1036,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
+			nextID = "r111"
 		}
 	}
 	Dialog {
@@ -1035,6 +1046,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "padre"
 			animationType = ""
+			nextID = "r112"
 		}
 	}
 	Dialog {
@@ -1044,6 +1056,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r113"
 		}
 	}
 	Dialog {
@@ -1062,6 +1075,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "hija"
 			animationType = ""
+			nextID = "r115"
 		}
 	}
 	Dialog {
@@ -1071,6 +1085,7 @@ Dialogs {
 			duration = "1.5"
 			actorID = "madre"
 			animationType = ""
+			nextID = "r116"
 		}
 	}
 	Dialog {
@@ -1122,12 +1137,32 @@ Dialogs {
 	Dialog {
 		id = "r999"
 		Content {
-			text = "Silencio incómodo..."
+			text = "..."
+			duration = "0.5"
+			actorID = "taletale"
+			animationType = ""
+		}
+	}
+	Dialog {
+		id = "r1000"
+		Content {
+			text = "Están muy concentrados comiendo. No me parece apropiado interrumpirlos"
 			duration = "1.5"
 			actorID = "taletale"
 			animationType = ""
 		}
 	}
+	Dialog {
+		id = "r1001"
+		Content {
+			text = "Nunca he visto este tipo de cocción. Ni de carne, dicho sea de paso."
+			duration = "1.5"
+			actorID = "taletale"
+			animationType = ""
+		}
+	}
+
+	
 }
 
 

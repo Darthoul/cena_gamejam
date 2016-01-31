@@ -470,9 +470,6 @@ Speaches {
 			text = ""
 			responseID = "r52"
 		}
-		ToActive {
-			special = "gameover"
-		}
 	}
 	Speach {
 		id = "s38a"
@@ -507,9 +504,6 @@ Speaches {
 			text = ""
 			responseID = "r68"
 		}
-		ToActive {
-			special = "win"
-		}
 	}
 	Speach {
 		id = "s40"
@@ -531,9 +525,6 @@ Speaches {
 			text = ""
 			responseID = "r60"
 		}
-		ToActive {
-			speach = "win"
-		}
 	}
 	Speach {
 		id = "s42"
@@ -541,9 +532,6 @@ Speaches {
 			showText = "Tienes un talento especial. "
 			text = ""
 			responseID = "r60"
-		}
-		ToActive {
-			speach = "win"
 		}
 	}
 	Speach {
@@ -566,9 +554,6 @@ Speaches {
 			text = ""
 			responseID = "r64"
 		}
-		ToActive {
-			special = "win"
-		}
 	}
 	Speach {
 		id = "s45"
@@ -577,9 +562,6 @@ Speaches {
 			text = ""
 			responseID = "r66"
 		}
-		ToActive {
-			special = "gameover"
-		}
 	}
 	Speach {
 		id = "s46"
@@ -587,9 +569,6 @@ Speaches {
 			showText = "Un conejo. ¿No le he dicho que soy mago? "
 			text = ""
 			responseID = "r67"
-		}
-		ToActive {
-			speach = "win"
 		}
 	}
 	Speach {
@@ -624,9 +603,6 @@ Speaches {
 			text = ""
 			responseID = "r73"
 		}
-		ToActive {
-			special = "win"
-		}
 	}
 	Speach {
 		id = "s50"
@@ -634,9 +610,6 @@ Speaches {
 			showText = "¿Pretende que me orine los pantalones, señora Bierce? "
 			text = ""
 			responseID = "r75"
-		}
-		ToActive {
-			special = "gameover"
 		}
 	}
 	Speach {
@@ -659,9 +632,6 @@ Speaches {
 			text = ""
 			responseID = "r78"
 		}
-		ToActive {
-			special = "gameover"
-		}
 	}
 	Speach {
 		id = "s53"
@@ -669,9 +639,6 @@ Speaches {
 			showText = "(Interumpir) ¿De qué es la carne?"
 			text = ""
 			responseID = "r91"
-		}
-		ToActive {
-			special = "saltyMeatQuest"
 		}
 	}
 	Speach {
@@ -681,9 +648,6 @@ Speaches {
 			text = ""
 			responseID = "r94"
 		}
-		ToActive {
-			special = "win"
-		}
 	}
 	Speach {
 		id = "s57"
@@ -692,9 +656,6 @@ Speaches {
 			text = ""
 			responseID = "r94"
 		}
-		ToActive {
-			special = "win"
-		}
 	}
 	Speach {
 		id = "s58"
@@ -702,9 +663,6 @@ Speaches {
 			showText = "Sin palabras."
 			text = ""
 			responseID = "r94"
-		}
-		ToActive {
-			special = "win"
 		}
 	}
 	Speach {
@@ -715,7 +673,8 @@ Speaches {
 			responseID = "r106"
 		}
 		ToActive {
-			special = "eatDessertQuest"
+			speach = "s500a"
+			speach = "s500b"
 		}
 	}
 	Speach {
@@ -726,7 +685,8 @@ Speaches {
 			responseID = "r106"
 		}
 		ToActive {
-			special = "eatDessertQuest"
+			speach = "s500a"
+			speach = "s500b"
 		}
 	}
 	Speach {
@@ -737,7 +697,8 @@ Speaches {
 			responseID = "r106"
 		}
 		ToActive {
-			special = "eatDessertQuest"
+			speach = "s500a"
+			speach = "s500b"
 		}
 	}
 	Speach {
@@ -746,9 +707,6 @@ Speaches {
 			showText = "Tomar su mano"
 			text = ""
 			responseID = "r117"
-		}
-		ToActive {
-			special = "gameover"
 		}
 	}
 	Speach {
@@ -759,7 +717,8 @@ Speaches {
 			responseID = "r106"
 		}
 		ToActive {
-			special = "eatDessertQuest"
+			speach = "s500a"
+			speach = "s500b"
 		}
 	}
 	Speach {
@@ -769,9 +728,6 @@ Speaches {
 			text = ""
 			responseID = "r107"
 		}
-		ToActive {
-			special = "gameover"
-		}
 	}
 	Speach {
 		id = "s65"
@@ -779,9 +735,6 @@ Speaches {
 			showText = "Vámonos y salgamos de esta inmundicia."
 			text = ""
 			responseID = "r117"
-		}
-		ToActive {
-			special = "gameover"
 		}
 	}
 	Speach {
@@ -791,9 +744,6 @@ Speaches {
 			text = ""
 			responseID = "r999"
 		}
-		ToActive {
-			special = "gameover"
-		}
 	}
 	Speach {
 		id = "s67"
@@ -802,8 +752,123 @@ Speaches {
 			text = ""
 			responseID = "r999"
 		}
+	}
+	Speach {
+		id = "s68"
+		Content {
+			showText = "Tomar los cubiertos..."
+			text = ""
+			responseID = "r81"
+		}
+	}
+	Speach {
+		id = "s69"
+		Content {
+			showText = "(Piensa) No sé si pueda seguir..."
+			text = ""
+			responseID = "r101"
+		}
 		ToActive {
-			special = "gameover"
+			speach = "s500a"
+			speach = "s500b"
+		}
+	}
+	Speach {
+		id = "s70"
+		Content {
+			showText = "(Piensa) Qué buenos anfitriones."
+			text = ""
+			responseID = "r101"
+		}
+		ToActive {
+			speach = "s71"
+			speach = "s72"
+		}
+	}
+	Speach {
+		id = "s71"
+		Content {
+			showText = "Botar el plato al piso simulando un accidente"
+			text = ""
+			responseID = "r109"
+		}
+		ToActive {
+			speach = "s500a"
+			speach = "s500b"
+		}
+	}
+	Speach {
+		id = "s72"
+		Content {
+			showText = "No botar el plato"
+			text = ""
+			responseID = "r999"
+		}
+		ToActive {
+			speach = "s72a"
+			speach = "s72b"
+			speach = "s72c"
+		}
+	}
+	Speach {
+		id="s72a"
+		Content {
+			showText = "hablar con hija"
+			text = ""
+			responseID = "r105"
+		}
+		ToActive {
+			speach = "s62"
+			speach = "s63"
+			speach = "s64"
+		}
+	}
+	Speach {
+		id="s72b"
+		Content {
+			showText = "hablar con madre"
+			text = ""
+			responseID = "r104"
+		}
+		ToActive {
+			speach = "s59"
+			speach = "s60"
+			speach = "s61"
+		}
+	}
+	Speach {
+		id="s72c"
+		Content {
+			showText = "hablar con padre"
+			text = ""
+			responseID = "r103"
+		}
+		ToActive {
+			speach = "s59"
+			speach = "s60"
+			speach = "s61"
+		}
+	}
+	Speach {
+		id="s500a"
+		Content {
+			showText = "Comer el postre"
+			text = ""
+			responseID = "r999"
+		}
+
+	}
+	Speach {
+		id="s500b"
+		Content {
+			showText = "No comer el postre."
+			text = ""
+			responseID = "r114"
+		}
+		ToActive {
+			speach = "s65"
+			speach = "s66"
+			speach = "s67"
 		}
 	}
 
