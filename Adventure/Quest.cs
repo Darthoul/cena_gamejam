@@ -34,7 +34,9 @@ public abstract class QuestArchive {
 	}
 
 	public static void CallOnActivate (Quest quest) {
+		Debug.LogWarning(quest.calls.Count);
 		foreach (Quest.Call call in quest.calls) {
+			Debug.LogWarning(call.activateParams + " " + call.activateParams.Count);
 			if (call.activateParams != null && call.activateParams.Count != 0) {
 				StoryEvents.instance.SendMessage (call.onActivate, call.activateParams);
 			} else if (call.onActivate != null) {
