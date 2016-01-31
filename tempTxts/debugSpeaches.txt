@@ -1,0 +1,156 @@
+Speaches {
+	Speach {
+		id = "s1"
+		Content {
+			showText = "Gracias por aceptar recibirme en su casa. Es un placer conocerlos."
+			text = ""
+			responseID = "r1"
+		}
+		ToActive {
+			speach = "s6"
+			speach = "s7"
+			speach = "s8"
+		}
+	}
+	Speach {
+		id = "s2"
+		Content {
+			showText = "¿Es siempre así el clima en Carcosa?"
+			text = ""
+			responseID = "r2"
+		}
+		ToActive {
+			speach = "s4"
+			speach = "s5"
+		}
+	}
+	Speach {
+		id = "s3"
+		Content {
+			showText = "René me habló muy bien de ustedes…"
+			text = ""
+			responseID = "r15"
+		}
+		ToActive {
+			speach = "s9"
+			speach = "s10"
+			speach = "s11"
+		}
+	}
+	Speach {
+		id = "s4"
+		Content {
+			showText = "Gustav (Interrupción): ¿Quién es Roland?"
+			text = ""
+			responseID = "r13"
+		}
+		ToActive {
+			special = "WIN"
+		}
+	}
+
+	Speach {
+		id = "s5"
+		Content {
+			showText = "No decir nada…"
+			text = ""
+		}
+		ToActive {
+			speach = "s6"
+			speach = "s7"
+			speach = "s8"
+		}
+	}
+
+	Speach {
+		id = "s6"
+		Content {
+			showText = "[Mentir] Me dedico a la importación y exportación de especias. "
+			text = ""
+			responseID = "r16"
+		}
+		ToActive {
+			special = "win"
+		}
+	}
+	Speach {
+		id = "s7"
+		Content {
+			showText = "[Mentir] Actualmente estoy sin trabajo por las vicisitudes de la guerra. He venido a Carcosa a probar suerte. ¿Quizá ustedes conozcan a alguien?"
+			text = ""
+			responseID = "r18"
+		}
+		ToActive {
+			speach = "Q12"
+			speach = "Q13"
+		}
+	}
+	Speach {
+		id = "s8"
+		Content {
+			showText = "De donde vengo no solemos ser tan inquisidores con los huéspedes."
+			text = ""
+			responseID = "r21"
+		}
+		ToActive {
+			special = "win"
+		}
+	}
+	Speach {
+		id = "s9"
+		Content {
+			showText = "La familia es lo que nos une, eso es algo que no debemos olvidar , especialmente durante la guerra."
+			text = ""
+			responseID = "r18"
+		}
+		ToActive {
+			speach = "Q12"
+			speach = "Q13"
+		}
+	}
+	Speach {
+		id = "s10"
+		Content {
+			showText = "Salud, por la Familia "
+			text = ""
+			responseID = "r24"
+		}
+		ToActive {
+			special = "win"
+		}
+	}
+	Speach {
+		id = "s11"
+		Content {
+			showText = "Y usted tiene una muy bonita."
+			text = ""
+			responseID = "r26"
+		}
+		ToActive {
+			special = "win"
+		}
+	}
+	Speach {
+		id = "s12"
+		Content {
+			showText = "La guerra es una realidad que debemos afrontar."
+			text = ""
+			responseID = "r22"
+		}
+		ToActive {
+			special = "gameover"
+		}
+	}
+	Speach {
+		id = "s13"
+		Content {
+			showText = "Tiene razón, señora."
+			text = ""
+			responseID = "r20"
+		}
+		ToActive {
+			special = "win"
+		}
+	}
+
+}

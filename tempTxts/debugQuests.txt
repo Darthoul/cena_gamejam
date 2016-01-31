@@ -3,7 +3,7 @@ Quests {
 		id = "q1"
 		Task {
 			action = "say"
-			target = "q1promtText"
+			target = "s1"
 			ammount = "1"
 		}
 	}
@@ -11,7 +11,7 @@ Quests {
 		id = "q2"
 		Task {
 			action = "say"
-			target = "q2promtText"
+			target = "s2"
 			ammount = "1"
 		}
 	}
@@ -19,7 +19,7 @@ Quests {
 		id = "q3"
 		Task {
 			action = "say"
-			target = "q1promtText"
+			target = "s3"
 			ammount = "1"
 		}
 	}
