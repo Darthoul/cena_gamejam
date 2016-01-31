@@ -6,16 +6,17 @@ Quests {
 			target = "s4"
 			ammount = "1"
 		}
-	}
-	Adventure {
-		Call {
-			onActivate = "ChapterTransition"
-		
-			ActivateParams {
-				nextScene = "chapter2"
+		Adventure {
+			Call {
+				onActivate = "ChapterTransition"
+			
+				ActivateParams {
+					nextScene = "chapter2"
+				}
 			}
 		}
 	}
+	
 	Quest{
 		id = "q2"
 		Task {
@@ -23,21 +24,17 @@ Quests {
 			target = "s6"
 			ammount = "1"
 		}
-		
-		Activates {
-			quest = "q4"
-			quest = "q5"
-		}
-	}
-	Adventure {
-		Call {
-			onActivate = "ChapterTransition"
-		
-			ActivateParams {
-				nextScene = "chapter2"
+		Adventure {
+			Call {
+				onActivate = "ChapterTransition"
+			
+				ActivateParams {
+					nextScene = "chapter2"
+				}
 			}
 		}
 	}
+	
 	Quest{
 		id = "q3"
 		Task {
@@ -45,16 +42,17 @@ Quests {
 			target = "s8"
 			ammount = "1"
 		}
-	}
-	Adventure {
-		Call {
-			onActivate = "ChapterTransition"
-		
-			ActivateParams {
-				nextScene = "chapter2"
+		Adventure {
+			Call {
+				onActivate = "ChapterTransition"
+			
+				ActivateParams {
+					nextScene = "chapter2"
+				}
 			}
 		}
 	}
+	
 	Quest{
 		id = "q4"
 		Task {
@@ -62,16 +60,17 @@ Quests {
 			target = "s10"
 			ammount = "1"
 		}
-	}
-	Adventure {
-		Call {
-			onActivate = "ChapterTransition"
-		
-			ActivateParams {
-				nextScene = "chapter2"
+		Adventure {
+			Call {
+				onActivate = "ChapterTransition"
+			
+				ActivateParams {
+					nextScene = "chapter2"
+				}
 			}
 		}
 	}
+	
 	Quest{
 		id = "q5"
 		Task {
@@ -79,16 +78,17 @@ Quests {
 			target = "s11"
 			ammount = "1"
 		}
-	}
-	Adventure {
-		Call {
-			onActivate = "ChapterTransition"
-		
-			ActivateParams {
-				nextScene = "chapter2"
+		Adventure {
+			Call {
+				onActivate = "ChapterTransition"
+			
+				ActivateParams {
+					nextScene = "chapter2"
+				}
 			}
 		}
 	}
+	
 	Quest{
 		id = "q6"
 		Task {
@@ -96,16 +96,17 @@ Quests {
 			target = "s13"
 			ammount = "1"
 		}
-	}
-	Adventure {
-		Call {
-			onActivate = "ChapterTransition"
-		
-			ActivateParams {
-				nextScene = "chapter2"
+		Adventure {
+			Call {
+				onActivate = "ChapterTransition"
+			
+				ActivateParams {
+					nextScene = "chapter2"
+				}
 			}
 		}
 	}
+	
 	Quest{
 		id = "q7"
 		Task {
@@ -113,17 +114,53 @@ Quests {
 			target = "s12"
 			ammount = "1"
 		}
-	}
-	Adventure {
-		Call {
-			onActivate = "ChangeLevel"
-		
-			ActivateParams {
-				nextScene = "gameOver2"
+		Adventure {
+			Call {
+				onActivate = "ChangeLevel"
+			
+				ActivateParams {
+					nextScene = "gameOver2"
+				}
 			}
 		}
 	}
 	
+	//Segunda ESCENA
+	Quest{
+		id = "q8"
+		Task {
+			action = "say"
+			target = "s37"
+			ammount = "1"
+		}
+		Adventure {
+			Call {
+				onActivate = "ChangeLevel"
+			
+				ActivateParams {
+					nextScene = "gameOver2"
+				}
+			}
+		}
+	}
+	
+	Quest{
+		id = "q9"
+		Task {
+			action = "say"
+			target = "s39"
+			ammount = "1"
+		}
+		Adventure {
+			Call {
+				onActivate = "ChapterTransition"
+			
+				ActivateParams {
+					nextScene = "chapter3"
+				}
+			}
+		}
+	}
 }
 
 
@@ -135,6 +172,10 @@ Quests {
 // tedispara = gameOver3
 // carcel = gameOver4
 // winwin = gameOver5
+
+
+
+
 
 
 
