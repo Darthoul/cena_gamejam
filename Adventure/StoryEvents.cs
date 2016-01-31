@@ -8,6 +8,7 @@ public class StoryEvents : MonoBehaviour {
 	public AdventureLoader advLoader;
 
 	public Transform speechBox;
+	public Transform endingBox;
 
 	public static Speech currentSpeech;
 	public static Dialog currentDialog;
@@ -18,20 +19,32 @@ public class StoryEvents : MonoBehaviour {
 		instance = this;
 		advLoader.LoadAll ();
 		speechBox = GameObject.Find ("SpeechBox").transform;
+		endingBox = GameObject.Find ("GameOverBox").transform;
 		SpeechArchive.Search ("s1").MoveToActive ();
 		SpeechArchive.Search ("s2").MoveToActive ();
 		SpeechArchive.Search ("s3").MoveToActive ();
+		LoadQuestSection (1, 7);
 		SpeechPrompt ();
 	}
 
 	void Start () {
 	
 	}
-
+	#region CallOnActivate 
 	public static void ChangeLevel (List<string> questParams) {
-		Application.LoadLevel (questParams [0]);
+		Debug.LogWarning (questParams [0]);
+		instance.endingBox.FindChild (questParams [0]).position = Vector3.zero;
 	}
+	public static void ChapterTransition (List<string> questParams) {
 
+	}
+	#endregion
+
+	public void LoadQuestSection (int _from, int _to) {
+		for (int i = _from; i <= _to; i++) {
+			QuestArchive.Activate("q" + i);
+		}
+	}
 	// Update is called once per frame
 	void Update () {
 	
