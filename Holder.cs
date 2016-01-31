@@ -18,6 +18,8 @@ public class Holder : MonoBehaviour {
 	void OnMouseOver () {
 		if (Input.GetMouseButtonDown (0)) {
 			QuestArchive.Check("say", speech.id, 1);
+			StoryEvents.currentSpeech = speech;
+			StoryEvents.MakeActorSay(speech.responseID);
 			StoryEvents.SpeechClear();
 		}
 	}

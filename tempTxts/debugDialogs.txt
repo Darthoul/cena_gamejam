@@ -29,8 +29,5 @@ Dialogs {
 			animationType = "say"
 			nextID = "r4"
 		}
-		
-	}
-	
-	
+	}		
 }
