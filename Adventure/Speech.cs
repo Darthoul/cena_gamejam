@@ -11,6 +11,12 @@ public class Speech {
 
 	public List<string> toActive;
 
+	public void SendListToActive () {
+		foreach (string speechID in toActive) {
+			SpeechArchive.Search (speechID).MoveToActive ();
+		}
+	}
+
 	public void MoveToActive () {
 		SpeechArchive.total.Remove (this);
 		SpeechArchive.active.Add (this);
@@ -44,6 +50,15 @@ public class SpeechArchive {
 		for (int i = 0; i < total.Count; i++) {
 			if (total [i].id == _id) {
 				return total [i];
+			}
+		}
+		Debug.LogError ("Speech with id: " + _id + " not found");
+		return null;
+	}
+	public static Speech SearchActive (string _id) {
+		for (int i = 0; i < active.Count; i++) {
+			if (active [i].id == _id) {
+				return active [i];
 			}
 		}
 		Debug.LogError ("Speech with id: " + _id + " not found");

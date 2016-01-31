@@ -7,18 +7,18 @@ public class SpeechParser : Parser {
 
 	protected override void CallOnNode (ref string name, System.Collections.Generic.List<ParserValue> pairs)
 	{
-		if (name == "Speaches/Speech") {
+		if (name == "Speaches/Speach") {
 			speech = Speech.Create (pairs [0].value);
 			SpeechArchive.total.Add (speech);
 		}
-		if (name == "Speaches/Speech/Content") {
+		if (name == "Speaches/Speach/Content") {
 			if (pairs.Count <= 2) {
 				speech.AddContent (pairs [0].value, pairs [1].value);
 			} else {
 				speech.AddContent (pairs [0].value, pairs [1].value, pairs [2].value);
 			}
 		}
-		if (name == "Speaches/Speech/Content/ToActive") {
+		if (name == "Speaches/Speach/Content/ToActive") {
 			foreach (ParserValue pair in pairs) {
 				speech.toActive.Add (pair.value);
 			}

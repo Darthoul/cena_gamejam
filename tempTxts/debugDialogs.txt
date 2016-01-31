@@ -3,7 +3,7 @@ Dialogs {
 		id = "r1"
 		Content {
 			text = "El placer es nuestro señor Gustav. Dígame ¿a qué se dedica?"
-			duration = "0.5f"
+			duration = "1.5"
 			actorID = "mama"
 			animationType = "say"
 		}
@@ -13,7 +13,7 @@ Dialogs {
 		id = "r2"
 		Content {
 			text = "En Carcosa cuando no llueve es porque Dios se ha acordado de nosotros… ¿no es lo que solía decir Roland?"
-			duration = "0.5f"
+			duration = "1.5"
 			actorID = "hija"
 			animationType = "say"
 			nextID = "r3"
@@ -24,7 +24,7 @@ Dialogs {
 		id = "r3"
 		Content {
 			text = "No uses el nombre de Dios en vano."
-			duration = "0.5f"
+			duration = "1.5"
 			actorID = "mama"
 			animationType = "say"
 			nextID = "r4"
