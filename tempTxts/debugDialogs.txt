@@ -1,7 +1,7 @@
 Dialogs {
 	Dialog {
 		id = "r1"
-		content {
+		Content {
 			text = "El placer es nuestro señor Gustav. Dígame ¿a qué se dedica?"
 			duration = "0.5f"
 			actorID = "mama"
@@ -11,7 +11,7 @@ Dialogs {
 	}
 	Dialog {
 		id = "r2"
-		content {
+		Content {
 			text = "En Carcosa cuando no llueve es porque Dios se ha acordado de nosotros… ¿no es lo que solía decir Roland?"
 			duration = "0.5f"
 			actorID = "hija"
@@ -22,7 +22,7 @@ Dialogs {
 	}
 	Dialog {
 		id = "r3"
-		content {
+		Content {
 			text = "No uses el nombre de Dios en vano."
 			duration = "0.5f"
 			actorID = "mama"
