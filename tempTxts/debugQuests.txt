@@ -14,12 +14,33 @@ Quests {
 			target = "s2"
 			ammount = "1"
 		}
+		
+		Activates {
+			quest = "q4"
+			quest = "q5"
+		}
 	}
 	Quest{
 		id = "q3"
 		Task {
 			action = "say"
 			target = "s3"
+			ammount = "1"
+		}
+	}
+	Quest{
+		id = "q4"
+		Task {
+			action = "say"
+			target = "s4"
+			ammount = "1"
+		}
+	}
+	Quest{
+		id = "q5"
+		Task {
+			action = "say"
+			target = "s5"
 			ammount = "1"
 		}
 	}
@@ -65,12 +86,11 @@ Quests {
 //				}
 //			}
 //			Call {
-//				onActivate = "MakeActorSay"
+//				onActivate = "ChangeLvl"
 //			
 //				ActivateParams {
 //			
-//					actID = "ACT01"
-//					param = "alt02"
+//					levelName = "Ending01"
 //				}
 //			}
 //		}

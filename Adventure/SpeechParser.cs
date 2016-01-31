@@ -18,7 +18,7 @@ public class SpeechParser : Parser {
 				speech.AddContent (pairs [0].value, pairs [1].value, pairs [2].value);
 			}
 		}
-		if (name == "Speaches/Speach/Content/ToActive") {
+		if (name == "Speaches/Speach/ToActive") {
 			foreach (ParserValue pair in pairs) {
 				speech.toActive.Add (pair.value);
 			}

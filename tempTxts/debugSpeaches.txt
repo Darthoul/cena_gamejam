@@ -44,9 +44,9 @@ Speaches {
 			text = ""
 			responseID = "r13"
 		}
-		ToActive {
-			special = "WIN"
-		}
+//		ToActive {
+//			special = "WIN"
+//		}
 	}
 
 	Speach {
@@ -54,6 +54,7 @@ Speaches {
 		Content {
 			showText = "No decir nada…"
 			text = ""
+			responseID = "r118"
 		}
 		ToActive {
 			speach = "s6"

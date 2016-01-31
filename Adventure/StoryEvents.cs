@@ -22,13 +22,14 @@ public class StoryEvents : MonoBehaviour {
 		SpeechArchive.Search ("s2").MoveToActive ();
 		SpeechArchive.Search ("s3").MoveToActive ();
 		SpeechPrompt ();
-		QuestArchive.Activate ("q1");
-		QuestArchive.Activate ("q2");
-		QuestArchive.Activate ("q3");
 	}
 
 	void Start () {
 	
+	}
+
+	public static void ChangeLevel (List<string> questParams) {
+		Application.LoadLevel (questParams [0]);
 	}
 
 	// Update is called once per frame
@@ -38,8 +39,8 @@ public class StoryEvents : MonoBehaviour {
 			timer += Time.deltaTime;
 			if (timer >= currentDialog.duration) {
 				SetText ("");
+				timer = 0;
 				if (currentDialog.nextID != null) {
-					timer = 0;
 					MakeActorSay(currentDialog.nextID);
 				} else {
 					speaking = false;
@@ -61,6 +62,7 @@ public class StoryEvents : MonoBehaviour {
 
 	static public void SpeechPrompt () {
 		for (int i = 0; i < SpeechArchive.active.Count; i++) {
+			Debug.LogError(SpeechArchive.active.Count);
 			instance.speechBox.GetChild(i).gameObject.SetActive(true);
 			instance.speechBox.GetChild(i).GetComponent<Holder> ().speech = SpeechArchive.active[i];
 			instance.speechBox.GetChild(i).GetComponent<Holder> ().SetText ();

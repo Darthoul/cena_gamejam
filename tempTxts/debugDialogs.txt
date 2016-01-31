@@ -1057,7 +1057,15 @@ Dialogs {
 			animationType = ""
 		}
 	}
-	
+	Dialog {
+		id = "r118"
+		Content {
+			text ="Te quedas callado por unos segundos"
+			duration = "2.5"
+			actorID = "taletale"
+			animationType = ""
+		}
+	}
 }
 
 
