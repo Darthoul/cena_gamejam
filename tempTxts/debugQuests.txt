@@ -3,76 +3,137 @@ Quests {
 		id = "q1"
 		Task {
 			action = "say"
-			target = "s1"
+			target = "s4"
 			ammount = "1"
+		}
+	}
+	Adventure {
+		Call {
+			onActivate = "ChapterTransition"
+		
+			ActivateParams {
+				nextScene = "chapter2"
+			}
 		}
 	}
 	Quest{
 		id = "q2"
 		Task {
 			action = "say"
-			target = "s2"
+			target = "s6"
 			ammount = "1"
+		}
+	}
+	Adventure {
+		Call {
+			onActivate = "ChapterTransition"
+		
+			ActivateParams {
+				nextScene = "chapter2"
+			}
 		}
 	}
 	Quest{
 		id = "q3"
 		Task {
 			action = "say"
-			target = "s3"
+			target = "s8"
 			ammount = "1"
 		}
 	}
+	Adventure {
+		Call {
+			onActivate = "ChapterTransition"
+		
+			ActivateParams {
+				nextScene = "chapter2"
+			}
+		}
+	}
+	Quest{
+		id = "q4"
+		Task {
+			action = "say"
+			target = "s10"
+			ammount = "1"
+		}
+	}
+	Adventure {
+		Call {
+			onActivate = "ChapterTransition"
+		
+			ActivateParams {
+				nextScene = "chapter2"
+			}
+		}
+	}
+	Quest{
+		id = "q5"
+		Task {
+			action = "say"
+			target = "s11"
+			ammount = "1"
+		}
+	}
+	Adventure {
+		Call {
+			onActivate = "ChapterTransition"
+		
+			ActivateParams {
+				nextScene = "chapter2"
+			}
+		}
+	}
+	Quest{
+		id = "q6"
+		Task {
+			action = "say"
+			target = "s13"
+			ammount = "1"
+		}
+	}
+	Adventure {
+		Call {
+			onActivate = "ChapterTransition"
+		
+			ActivateParams {
+				nextScene = "chapter2"
+			}
+		}
+	}
+	Quest{
+		id = "q7"
+		Task {
+			action = "say"
+			target = "s12"
+			ammount = "1"
+		}
+	}
+	Adventure {
+		Call {
+			onActivate = "ChangeLevel"
+		
+			ActivateParams {
+				nextScene = "gameOver2"
+			}
+		}
+	}
 	
-//	Quest {
-//
-//		id = "QT01"
-//		description = "Usar candelabro"
-//		
-//		Task {
-//			action = "usar"
-//			target = "item_test"
-//			ammount = "1"
-//		}
-//
-//		Activates {
-//			quest = "QT02"
-//		}
-//	}
-//	
-//	Quest {
-//		id = "QT02"
-//		description = "Darle sal a la vieja"		
-//		
-//		Task {
-//			action = "dar"
-//			target = "item_test2"
-//			overTarget = "actor2"
-//			ammount = "1"
-//		}
-//		Activates {
-//			quest = "QT03"
-//		}
-//		
-//		Adventure {
-//			Call {
-//				onActivate = "MakeQuestActor"
-//			
-//				ActivateParams {
-//				
-//					actID = "ACT02"
-//					param = "CHO01"
-//				}
-//			}
-//			Call {
-//				onActivate = "MakeActorSay"
-//			
-//				ActivateParams {
-//			
-//					actID = "ACT01"
-//					param = "alt02"
-//				}
-//			}
-//		}
-//	}
 }
+
+
+
+
+
+// suicide = gameOver1
+// tebotan = gameOver2
+// tedispara = gameOver3
+// carcel = gameOver4
+// winwin = gameOver5
+
+
+
+
+
+
+
